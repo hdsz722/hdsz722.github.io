@@ -35,17 +35,17 @@ h2 {
   text-decoration-line: underline;
 }
 
-#linklist {
-  width:75%;
+.linklist {
+  width:100%;
   padding-left: 1em;  
-  align-content:center;
+  align-items: center;
 }
 
-#linklist ul {
+.linklist ul {
   list-style:none;
 }
 
-#linklist ul li a:hover{
+.linklist ul li a:hover{
   background-color:lightblue;
 }
 
