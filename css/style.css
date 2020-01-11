@@ -6,3 +6,9 @@ body {
   background-color: #68e6ffa9;
   color: #6a4e34;
 }
+
+header {
+    height: 100px;
+    width:75%;
+    margin-left: 12.5%;
+}
