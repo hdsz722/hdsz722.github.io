@@ -4,7 +4,7 @@
 body {
   font-family: arial, sans-serif;
   background-color: #ffffffa9;
-  color: #ff7b00;
+
 }
 
 header {
@@ -13,14 +13,20 @@ header {
   margin-top: 10px;
   margin-left:5%;
   padding: 0%, 25%, 0%, 25%;
-  background-color: #6a4e34;
-  border-radius: 1em;
+  background-color: #006421;
+  color: #a1ff35;
+  border-radius: .9em;
 }
 .studentname {
   margin-left: 1em;
   padding-top: 1em;
 }
-.byuitag {
+
+.byuitag:active {
+  color:lightblue;
+}
+
+.byuitag:hover {
   color:lightblue;
 }
 
@@ -60,6 +66,7 @@ footer {
   width:80%;
   font-size: .9em;
   margin-left:5%;
-  background-color: #6a4e34;
-  border-radius: 1em;
+  background-color: #006421;
+  color: #a1ff35;
+  border-radius: .9em;
 }
