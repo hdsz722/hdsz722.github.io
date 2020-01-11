@@ -3,15 +3,16 @@
 
 body {
   font-family: arial, sans-serif;
+  font-size:12px;
   background-color: #ffffffa9;
   width:75%;
 }
 
 header {
-  height: 100px;
+  height: 75px;
   width:75%;
   margin-top: 10px;
-  margin-left:5%;
+  margin-left:12.5%;
   padding: 0%;
   background-color: #2a4e5c;
   color: #c2ff7c;
@@ -25,6 +26,7 @@ header {
 main {
   display: flex;
   margin-left:15%;
+  margin-bottom: 10%;
   flex-flow: row wrap;
   list-style: none;
 }
@@ -49,25 +51,24 @@ h2 {
 
 .ProfilePicture {
   float: right;
-  margin-top: -4em;
-  margin-right: 30px;
-  width: 15em;
+  margin-top: -5em;
+  margin-right: 1em;
   border-radius:1em;
 
 }
 
 footer {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: center;
+  display: block;
+  text-align: center;
   align-items: center;
   height: 4em;
   width:75%;
   font-size: .9em;
-  margin-left:5%;
+  margin-left:12.5%;
   background-color: #2a4e5c;
   color: #c2ff7c;
   border-radius: .9em;
+  padding: 1px 5px 10px 5px;
 }
 
 footer p a {
