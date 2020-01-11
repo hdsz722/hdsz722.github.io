@@ -13,21 +13,13 @@ header {
   margin-top: 10px;
   margin-left:5%;
   padding: 0%, 25%, 0%, 25%;
-  background-color: #006421;
+  background-color: #004864;
   color: #a1ff35;
   border-radius: .9em;
 }
 .studentname {
   margin-left: 1em;
   padding-top: 1em;
-}
-
-.byuitag:active {
-  color:lightblue;
-}
-
-.byuitag:hover {
-  color:lightblue;
 }
 
 main {
@@ -45,6 +37,10 @@ nav {
 
 nav ul {
   list-style:none;
+}
+
+nav ul li a:hover{
+  background-color:lightblue;
 }
 
 .ProfilePicture {
@@ -66,7 +62,16 @@ footer {
   width:80%;
   font-size: .9em;
   margin-left:5%;
-  background-color: #006421;
+  background-color: #004864;
   color: #a1ff35;
   border-radius: .9em;
 }
+
+footer p a {
+  color:lightblue;
+}
+
+footer p a:hover {
+  font-weight:bold;
+}
+
