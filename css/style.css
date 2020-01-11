@@ -9,13 +9,13 @@ body {
 
 header {
   height: 100px;
-  width:75%;
+  width:80%;
   margin-top: 10px;
-  margin-left: 12.5%;
+  margin-left:5%;
+  padding: 0%, 25%, 0%, 25%;
   background-color: #6a4e34;
   border-radius: 1em;
 }
-
 .studentname {
   margin-left: 1em;
   padding-top: 1em;
@@ -50,8 +50,13 @@ nav ul {
 
 footer {
   display: flex;
-  width:75%;
-  margin-left:12.5%;
   flex-flow: row wrap;
   align-content: center;
+  align-items: center;
+  height: 4em;
+  width:80%;
+  font-size: .9em;
+  margin-left:5%;
+  background-color: #6a4e34;
+  border-radius: 1em;
 }

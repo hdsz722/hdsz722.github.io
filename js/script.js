@@ -4,8 +4,7 @@
 * Output: The Scripture
 */
 function myFunction(){
-    
 }
+    let oLastModif = new Date(document.lastModified);
+    document.getElementById("lastupdated").innerHTML = oLastModif;
 
-let oLastModif = new Date(document.lastModified);
-document.getElementById("lastupdated").textContent = oLastModif;
