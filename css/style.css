@@ -3,12 +3,55 @@
 
 body {
   font-family: arial, sans-serif;
-  background-color: #68e6ffa9;
-  color: #6a4e34;
+  background-color: #ffffffa9;
+  color: #ff7b00;
 }
 
 header {
-    height: 100px;
-    width:75%;
-    margin-left: 12.5%;
+  height: 100px;
+  width:75%;
+  margin-top: 10px;
+  margin-left: 12.5%;
+  background-color: #6a4e34;
+  border-radius: 1em;
+}
+
+.studentname {
+  margin-left: 1em;
+  padding-top: 1em;
+}
+
+main {
+  display: flex;
+  margin-left:15%;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+nav {
+  width:75%;
+  padding-left: 1em;  
+  align-content:center;
+}
+
+nav ul {
+  list-style:none;
+}
+
+.ProfilePicture {
+  float: right;
+  margin-top: -4em;
+  margin-right: 30px;
+  width: 15em;
+  border-radius:1em;
+  box-shadow: 0, 2, 2, 0 black;
+
+}
+
+footer {
+  display: flex;
+  width:75%;
+  margin-left:12.5%;
+  flex-flow: row wrap;
+  align-content: center;
 }
