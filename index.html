@@ -16,8 +16,8 @@
         <img class="ProfilePicture" src="images/cary-profile.jpg" alt="student profile image">
     </header>
     <main>
-        <h2>CIT 230: Assignment Portal</h2>
         <section class="linklist">
+            <h2>CIT 230: Assignment Portal</h2>
             <ul>
                 <li>Lesson 02: <a href="#">Design Principles Document</a></li>
                 <li>Lesson 03: <a href="#">Placeholder</a></li>
@@ -30,8 +30,13 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2020 | Cary Taylor | Alaska | <a id="byuitag" href="http://byui.edu">BYUI Online Learning</a><p>
-        <p>Last updated: <span><div id="lastupdated"></div></span></p>
+        &copy; 2020 | Cary Taylor | Alaska | <a id="byuitag" href="http://byui.edu">BYUI Online Learning</a><br>
+        <span class="mod-date">
+            Last updated: <span>
+            <script>
+                document.write(document.lastModified);
+            </script>
+        </span>
     </footer>
     <script src="js/myscript.js"></script>
 </body>-

@@ -54,6 +54,7 @@ h2 {
   margin-top: -5em;
   margin-right: 1em;
   border-radius:1em;
+  box-shadow: 0 0 15px black;
 
 }
 
@@ -71,11 +72,11 @@ footer {
   padding: 1px 5px 10px 5px;
 }
 
-footer p a {
+footer a {
   color:lightblue;
 }
 
-footer p a:hover {
+footer a:hover {
   font-weight:bold;
 }
 
