@@ -12,9 +12,9 @@ header {
   width:80%;
   margin-top: 10px;
   margin-left:5%;
-  padding: 0%, 25%, 0%, 25%;
-  background-color: #004864;
-  color: #a1ff35;
+  padding: 0 25% 0 25%;
+  background-color: #2a4e5c;
+  color: #c2ff7c;
   border-radius: .9em;
 }
 .studentname {
@@ -27,6 +27,10 @@ main {
   margin-left:15%;
   flex-flow: row wrap;
   list-style: none;
+}
+
+h2 {
+  text-decoration-line: underline;
 }
 
 nav {
@@ -62,8 +66,8 @@ footer {
   width:80%;
   font-size: .9em;
   margin-left:5%;
-  background-color: #004864;
-  color: #a1ff35;
+  background-color: #2a4e5c;
+  color: #c2ff7c;
   border-radius: .9em;
 }
 
