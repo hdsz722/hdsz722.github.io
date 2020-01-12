@@ -6,5 +6,5 @@
 function myFunction(){
 }
     let oLastModif = new Date(document.lastModified);
-    document.getElementById("lastupdated").textContent = oLastModif;
+    document.getElementById("lastUpdated").textContent = oLastModif;
 
