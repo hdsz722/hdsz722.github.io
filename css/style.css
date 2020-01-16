@@ -10,7 +10,7 @@ body {
 
 header {
   height: 75px;
-  width:1vw;
+  width:75%;
   margin-top: 10px;
   margin-left:12.5%;
   padding: 0%;
@@ -24,7 +24,8 @@ header {
 }
 
 main {
-  display: grid;
+  display: flex;
+  width:75%;
   margin-left:15%;
   margin-bottom: 10%;
   flex-flow: row wrap;
