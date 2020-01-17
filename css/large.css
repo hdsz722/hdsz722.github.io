@@ -1,0 +1,14 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'large' media query section */
+@media only screen and (min-width: 65em){
+    header {
+        height: auto;
+        width:50vw;
+        margin-top: 10px;
+        margin-left:25vw;
+        border-radius: 1em;
+        padding: .5em;  
+    }
+
+}

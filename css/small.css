@@ -1,34 +1,30 @@
 /* CSS files add styling rules to your content */
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-body {
-  font-family: arial, sans-serif;
+:root {
+  font-family: 'Open Sans', sans-serif;
   font-size:12px;
   background-color: #ffffffa9;
-  width:75%;
+  width:100%;
 }
 
 header {
-  height: 75px;
-  width:75%;
-  margin-top: 10px;
-  margin-left:12.5%;
-  padding: 0%;
+  height: auto;
+  width:100%;
+  padding: 1em 0em;
+  text-align: center;
   background-color: #2a4e5c;
   color: #c2ff7c;
-  border-radius: .9em;
 }
 .studentname {
-  margin-left: 1em;
-  padding-top: 1em;
+
 }
 
 main {
-  display: flex;
-  width:75%;
-  margin-left:15%;
+  display: grid;
+  width:100%;
+  text-align: center;
   margin-bottom: 10%;
-  flex-flow: row wrap;
   list-style: none;
 }
 
@@ -38,8 +34,7 @@ h2 {
 
 .linklist {
   width:100%;
-  padding-left: 1em;  
-  align-items: center;
+  text-align: center;
 }
 
 .linklist ul {
@@ -51,25 +46,20 @@ h2 {
 }
 
 .ProfilePicture {
-  float: right;
-  margin-top: -5em;
-  margin-right: 1em;
   border-radius:1em;
   box-shadow: 0 0 15px black;
 
 }
 
 footer {
-  display: block;
+  display: grid;
   text-align: center;
-  height: 4em;
-  width:75%;
+  height: auto;
+  width:100%;
   font-size: .9em;
-  margin-left:12.5%;
   background-color: #2a4e5c;
   color: #c2ff7c;
-  border-radius: .9em;
-  padding: 2em 0em 1em 0em;
+  padding: 0em;
 }
 
 footer a {
