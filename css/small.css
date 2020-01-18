@@ -52,7 +52,6 @@ h2 {
 .profilepicture {
   border-radius:1em;
   box-shadow: 0 0 15px black;
-
 }
 
 footer {
@@ -63,7 +62,7 @@ footer {
   font-size: .8em;
   background-color: #2a4e5c;
   color: #c2ff7c;
-  padding: 0em;
+  padding: .75em 0em;
 }
 
 footer a {
@@ -74,3 +73,6 @@ footer a:hover {
   font-weight:bold;
 }
 
+#lastupdated {
+  font-size:.75em;
+}

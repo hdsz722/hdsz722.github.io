@@ -15,7 +15,8 @@
         margin-top: 10px;
         margin-left:12.5vw;
         border-radius: 1em;
-        padding: .5em;  
+        padding: .5em; 
+        font-size:1.25em; 
     }
 
     main {
@@ -25,10 +26,9 @@
 
     .linklist {
         text-align: left;
-        text-indent: 1em;
-        width:50vw;
+        width:45vw;
     }
-    d
+    
     .studentname {
         width:50vw;
         font-size: 2rem;
@@ -42,5 +42,6 @@
         margin-left:12.5vw;
         border-radius: 1em;
         padding: 1em 0em; 
+        font-size: .9em;
     }
 }
