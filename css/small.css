@@ -17,6 +17,10 @@ header {
   color: #c2ff7c;
 }
 
+.pagereturn {
+  text-align: left;
+  padding-left:1em;
+}
 
 main {
   display: grid;
@@ -28,15 +32,18 @@ main {
 
 h2 {
   text-decoration-line: underline;
+  text-align: center;
 }
 
 .linklist {
   width:100%;
-  text-align: center;
+  text-indent:1em;
+  margin-left:5vw;
 }
 
 .linklist ul {
   list-style:none;
+  text-align: left;
 }
 
 .linklist ul li a:hover{
