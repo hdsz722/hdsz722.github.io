@@ -3,8 +3,6 @@
 * Processing: Create a verse of scripture for that person
 * Output: The Scripture
 */
-function myFunction(){
-}
-    let oLastModif = new Date(document.lastModified);
-    document.getElementById("lastUpdated").textContent = oLastModif;
 
+   let oLastModif = new Date(document.lastModified);
+    document.getElementById("lastupdated").textContent = oLastModif;

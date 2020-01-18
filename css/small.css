@@ -3,7 +3,7 @@
 
 :root {
   font-family: 'Open Sans', sans-serif;
-  font-size:12px;
+  font-size:16px;
   background-color: #ffffffa9;
   width:100%;
 }
@@ -16,9 +16,7 @@ header {
   background-color: #2a4e5c;
   color: #c2ff7c;
 }
-.studentname {
 
-}
 
 main {
   display: grid;
@@ -45,7 +43,7 @@ h2 {
   background-color:lightblue;
 }
 
-.ProfilePicture {
+.profilepicture {
   border-radius:1em;
   box-shadow: 0 0 15px black;
 
@@ -56,7 +54,7 @@ footer {
   text-align: center;
   height: auto;
   width:100%;
-  font-size: .9em;
+  font-size: 1em;
   background-color: #2a4e5c;
   color: #c2ff7c;
   padding: 0em;
