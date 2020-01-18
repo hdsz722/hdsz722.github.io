@@ -17,6 +17,10 @@
         font-size:1em;
     }
 
+    .pagereturn {
+        font-size:.8em;
+    }
+
     .designprinciples {
         width:auto;
         grid-template-columns: 1fr 1fr 1fr;
