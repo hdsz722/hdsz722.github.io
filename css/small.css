@@ -24,7 +24,7 @@ header {
 
 main {
   display: grid;
-  width:100vw;
+  width:100%;
   text-align: center;
   margin-bottom: 10%;
   list-style: none;
@@ -36,13 +36,13 @@ h2 {
 }
 
 .linklist {
-  width:100vw;
-  text-indent:1em;
+  width:100%;
 }
 
 .linklist ul {
   list-style:none;
   text-align: left;
+  text-indent:1em;
 }
 
 .linklist ul li a:hover{
