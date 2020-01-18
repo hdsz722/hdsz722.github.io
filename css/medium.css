@@ -25,7 +25,7 @@
 
     .linklist {
         text-align: left;
-        margin-left:1em;
+        text-indent: 1em;
         width:50vw;
     }
     d
