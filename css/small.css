@@ -9,6 +9,7 @@
 }
 
 header {
+  display:block;
   height: auto;
   width:100%;
   padding: 1em 0em;
@@ -18,16 +19,34 @@ header {
 }
 
 .pagereturn {
-  text-align: left;
+  color:#d8d8d8a9;
   padding-left:1em;
 }
 
 main {
   display: grid;
+  grid-template-columns: 1fr;
   width:100%;
   text-align: center;
-  margin-bottom: 10%;
+  margin: 1em 0em;
   list-style: none;
+}
+main section img {
+  width: auto;
+}
+.sec1, .sec2, .sec3 {
+  width:auto;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1em;
+  grid-column-gap: .1rem;
+  margin: 1em;
+  background-color: #d8d8d8a9;
+}
+
+main section img {
+  width:90vw;
+  padding:.5em;
 }
 
 h2 {
@@ -41,6 +60,7 @@ h2 {
 
 .linklist ul {
   list-style:none;
+  line-height: 1.5em;
   text-align: left;
   text-indent:1em;
 }
