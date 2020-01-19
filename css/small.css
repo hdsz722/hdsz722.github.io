@@ -24,6 +24,10 @@ header {
   font-size:.9em;
 }
 
+header a:hover {
+  background-color: #46839b;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
