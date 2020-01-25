@@ -1,31 +1,42 @@
 /* CSS files add styling rules to your content */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps&display=swap');
 
 :root {
-  font-family: 'Open Sans', sans-serif;
-  font-size:14px;
+  font-family: Arial, sans-serif;
+  font-size:16px;
   background-color: #ffffffa9;
   width:100%;
 }
 
-header {
+.weather-header {
   display:block;
   height: auto;
-  width:100%;
   padding: 1em 0em;
   text-align: center;
-  background-color: #2a4e5c;
-  color: #c2ff7c;
+  background-color: #011627;
+  color: #e7f1f8;
 }
 
-.pagereturn {
-  color:white;
-  padding-left:1em;
+.design-doc-menu {
+  background-color: #0caadc;
   font-size:.9em;
 }
 
-header a:hover {
-  background-color: #46839b;
+.design-doc-menu ul {
+  list-style:none;
+  color:#011627;
+  line-height: 1.5em;
+  text-align: center;
+  padding-left: 0;
+}
+.design-doc-menu a {
+  display:block;
+  padding: .5em 0em;
+}
+
+.design-doc-menu ul li a:hover{
+  background-color:lightblue;
+  color:#011627;
 }
 
 main {
@@ -33,23 +44,25 @@ main {
   grid-template-columns: 1fr;
   width:100%;
   text-align: center;
-  margin: 1em 0em;
-  list-style: none;
+  margin: 0em 0em 1em;
+}
+
+h1, h2, h3 {
+  font-family: 'Delius Swash Caps', serif;
 }
 
 .sec1, .sec2, .sec3, .sec4 {
   width:auto;
   border-style: solid;
   border-width: 1px;
-  border-radius: 1em;
+  border-radius: 0em;
   grid-column-gap: .1rem;
-  margin: 1em 0em;
+  margin: 1em 0em 0em;
   background-color: #d8d8d8a9;
-  padding: 0em 1em;
+  padding: 0em 0em 1em 0em;
 }
 
  main section img {
-  width:90vw;
   padding:.5em;
 } 
 
@@ -58,20 +71,6 @@ h2 {
   text-align: center;
 }
 
-.design-doc-menu {
-  width:100%;
-}
-
-.design-doc-menu ul {
-  list-style:none;
-  line-height: 1.5em;
-  text-align: left;
-  text-indent:1em;
-}
-
-.design-doc-menu ul li a:hover{
-  background-color:lightblue;
-}
 
 footer {
   display: grid;
@@ -79,18 +78,19 @@ footer {
   height: auto;
   width:100%;
   font-size: .8em;
-  background-color: #2a4e5c;
-  color: #c2ff7c;
+  background-color: #0caadc;
+  color: #011627;
   padding: .75em 0em;
   line-height: 0em;
 }
 
 footer a {
-  color:lightblue;
+  color:#011627;
 }
 
 footer a:hover {
-  font-weight:bold;
+  background-color:lightblue;
+  color:#011627;
 }
 
 #lastupdated {
