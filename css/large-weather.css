@@ -1,0 +1,49 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'large' media query section */
+@media only screen and (min-width: 65em){
+    header {
+        height: auto;
+        width:50vw;
+        margin-top: 10px;
+        margin-left:25vw;
+        border-radius: 1em;
+        padding: .5em;  
+        font-size: 1.5em
+    }
+    main {
+        width:50vw;
+        margin-left:25vw;
+        font-size:1em;
+    }
+
+    .pagereturn {
+        font-size:.8em;
+    }
+
+    .designprinciples {
+        width:auto;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main section img {
+        width: 25vw;
+      }
+
+      .linklist {
+        text-align: left;
+        width:30vw;
+    }
+    
+    .studentname {
+        width:50vw;
+        font-size: 2.25rem;
+        padding: .5em 0em;
+    }
+    footer {
+        width:50vw;
+        margin-left:25vw;
+        font-size:1em;
+    }
+
+}
