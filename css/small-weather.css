@@ -39,6 +39,11 @@
   color:#011627;
 }
 
+.active-link {
+  background-color:lightblue;
+  color:#011627;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
