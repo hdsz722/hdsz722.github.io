@@ -19,7 +19,7 @@
         grid-gap: 1em;
     }
 
-    .font-table .sec2 {
+    #font-table .sec2 {
         grid-column: 2 / span 3;
     }
 
