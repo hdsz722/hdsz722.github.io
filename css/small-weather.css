@@ -13,9 +13,8 @@
   height: auto;
   padding: 1em 0em;
   text-align: center;
-/*  background-color: #011627;*/
-  background-image: linear-gradient(to right, #011627, #a2cae5);
-  color: #e7f1f8;
+  background-color: #011627;
+  color: #e7f1f8;rgb(5, 8, 10)
 }
 
 .design-doc-menu {
