@@ -33,6 +33,7 @@
 .design-doc-menu a {
   display:block;
   padding: 1.25em .75em;
+  color:#011627;
 }
 
 .design-doc-menu ul li a:hover{

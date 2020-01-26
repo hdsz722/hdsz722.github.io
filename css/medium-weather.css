@@ -23,7 +23,8 @@
     main nav ul {
         margin: 0em;
         display: flex;
-        flex-direction: row nowrap;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     main nav ul li {
