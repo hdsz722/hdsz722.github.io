@@ -10,10 +10,10 @@ body {
 }
 
 .weather-header {
-  display:block;
+  display:grid;
   height: auto;
-  padding: 1rem 0rem;
-  text-align: center;
+  padding: 0rem .5rem;
+  text-align: left;
   background-color: #011627;
   color: white;
 }
