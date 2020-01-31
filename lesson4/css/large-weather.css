@@ -1,0 +1,30 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'large' media query section */
+@media only screen and (min-width: 65em){
+    .weather-header {
+        height: auto;
+        padding: .5em;  
+        font-size: 1.5em
+    }
+    main {
+        font-size:1em;
+    }
+
+   .section-container {
+        display:grid;
+        width:auto;
+        margin: 0em 0em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    #font-table .sec2 {
+        grid-column: 2 / span 3;
+    }
+
+     footer {
+        font-size:1em;
+    }
+
+}

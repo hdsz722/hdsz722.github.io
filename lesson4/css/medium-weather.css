@@ -1,0 +1,35 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'medium' media query section */
+@media only screen and (min-width: 32.5em){
+
+    .logo {
+        float: left;
+        margin-left: .5em;
+    }
+
+    .weather-header {
+       font-size:1.25em; 
+       background-image: linear-gradient(to right, #011627, #a2cae5);
+    }
+
+    .section-container {
+        display:grid;
+        width:auto;
+        margin: 0em 0em;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+    
+    main nav ul {
+        margin: 0em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    main nav ul li {
+        padding:0em;
+    }
+
+}
