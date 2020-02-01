@@ -24,8 +24,8 @@
    </header>
 
     <main>
-        <nav class="design-doc-menu">
-            <ul>
+        <nav>
+            <ul class="design-doc-menu" responsive>
                 <li> <a class="ham" href="#">&#9776; Menu</a></li>
                 <li> <a class="active-link" href="index.html">Home</a></li>
                 <li> <a href="#">Hero w/ Weather Summary</a></li>
@@ -36,32 +36,27 @@
             </ul>
         </nav>
         <h1>Preston, Idaho</h1>
-        <section class="section-container">
-            <section class="sec1">
-                <h3>Site Name</h3>
-                Arctic Blast
-            </section>
-            <section class="sec2">
-                <h3>Site URL</h3>
-                <a href="#" >http://www.articblastweather.net</a>
-            </section>
-            <section class="sec3">
-                <h3>Site Purpose</h3>
-                <p>This site is designed to allow the user to check on the current weather for their town.  For a quick 
-                    reference, the page will also display an image reflecting the type of weather for the day.  The page will also 
-                    display any forcasted warnings for hazardous weather to help users prepare and stay safe.
-                </p>
-                <p> This website will be responsive so users will be able to access the weather from mulitple devices.  
-                    The mobile display will give a summary of the weather for their town, plus a paragraph giving the details 
-                    of the weather for that area and any warnings.  The medium sized displays will provide the user with a stacked 5day
-                    forcast for the weather in their area.  The full page site will also display a 5-day forcast banner. 
-                </p>
-            </section>
-        </section>
-    </main>
-    <footer>
+
+        <div class="sec1">
+            <img src="#" alt="Hero Image">
+            <div>
+                <h2>Weather Summary</h3>
+                <p>Weather Details</p>
+            </div>
+        </div>
+        <div class="sec2">
+            <h2>Article Title</h2>
+            <p>article content</p>
+            <img src="#" alt="article image">
+        </div>
+        <div class="sec3">
+            <h2>Contact Informtion</h2>
+            <p>contact text</p>
+            <img src="#" alt="map image">
+        </div>
+     <footer>
         <p>&copy; <span id="copyrite"></span> | Cary Taylor | Alaska | <a id="byuitag" href="http://byui.edu">BYUI Online Learning</a></p>
-        <p>Updated: <span id="todaydate"></span></p>
+        <p><span id="todaydate"></span></p>
     </footer>
     <script src="js/myscript.js"></script>
 </body>

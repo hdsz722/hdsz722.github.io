@@ -12,3 +12,10 @@
    let oCurrentDate = days[d.getDay()] + ", " + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
    document.getElementById("todaydate").textContent = oCurrentDate;
    document.getElementById("copyrite").textContent = oYear;
+
+   const hambutton = document.querySelector (".ham");
+   hambutton.addEventListener ("click", toggleMenu, false);
+
+   function toggleMenu() {
+      document.querySelector(".design-doc-menu").classList.toggle("responsive");
+   }

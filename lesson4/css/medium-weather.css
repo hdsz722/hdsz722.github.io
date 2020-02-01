@@ -12,26 +12,18 @@
        align-items: center;
     }
     
-    .weather-header h1, h2 {
-        font-size:1.25rem; 
+    .weather-header h1 {
+        font-size:1.3rem; 
     }
     .ham {
         display: none;
     }
-
-    .section-container {
-        display:grid;
-        width:auto;
-        margin: 0em 0em;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1em;
-    }
     
-    main nav ul {
+    .design-doc-menu {
         margin: 0em;
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     main nav ul li {

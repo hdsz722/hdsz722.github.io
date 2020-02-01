@@ -3,10 +3,27 @@
 /* 'large' media query section */
 @media only screen and (min-width: 65em){
     .weather-header {
-        height: auto;
-        padding: .5em;  
-        font-size: 1.5em
+        height: auto; 
+        font-size: 1.75em
     }
+
+    .design-doc-menu {
+        display:flex;
+    }
+    .design-doc-menu li {
+        display:flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+    }
+      
+      .design-doc-menu li:first-child {
+        display:none;
+      }
+
+    .design-doc-menu li a{
+        margin: 0em;
+    }
+
     main {
         font-size:1em;
     }
