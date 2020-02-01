@@ -4,9 +4,15 @@
 * Output: The Scripture
 */
 
+   var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+   var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
    let oLastModif = new Date(document.lastModified);
    document.getElementById("lastupdated").textContent = oLastModif;
 
+
    let d = new Date();
    let oYear = d.getFullYear();
+   let oCurrentDate = days[d.getDay()] & ", " & d.getDate() & " " & months[d.getMonth()] & " " & d.getFullYear;
+   document.getElementById("todaydate").textContent = oCurrentDate;
    document.getElementById("copyrite").textContent = oYear;

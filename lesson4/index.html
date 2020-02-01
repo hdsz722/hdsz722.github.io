@@ -7,7 +7,6 @@
     <meta name="description" content="This is the Preston Idaho Town home page for CIT-230">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/small-weather.css">
     <link rel="stylesheet" href="css/medium-weather.css">
@@ -18,17 +17,16 @@
 
     <header class="weather-header">
         <img class="logo" src="../images/arctic-blast-logo.png" alt="arctic blast logo">
-        <h1>The Arctic Blast</h1>
-        <h2>A Forecast you can count on!</h2>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+        <section>
+            <h1>The Arctic Blast</h1>
+            <h2>A Forecast you can count on!</h2>
+        </section>
    </header>
 
     <main>
-        <h1>Preston, Idaho</h1>
         <nav class="design-doc-menu">
             <ul>
+                <li> <a class="ham" href="#">&#9776; Menu</a></li>
                 <li> <a class="active-link" href="index.html">Home</a></li>
                 <li> <a href="#">Hero w/ Weather Summary</a></li>
                 <li> <a href="#">5-day Forecast</a></li>
@@ -37,6 +35,7 @@
                 <li> <a href="../">Return to Portal</a></li>                
             </ul>
         </nav>
+        <h1>Preston, Idaho</h1>
         <section class="section-container">
             <section class="sec1">
                 <h3>Site Name</h3>
@@ -62,7 +61,7 @@
     </main>
     <footer>
         <p>&copy; <span id="copyrite"></span> | Cary Taylor | Alaska | <a id="byuitag" href="http://byui.edu">BYUI Online Learning</a></p>
-        <p>Last updated: <span id="lastupdated"></span></p>
+        <p>Last updated: <span id="todaydate"></span></p>
     </footer>
     <script src="js/myscript.js"></script>
 </body>

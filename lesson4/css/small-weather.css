@@ -10,12 +10,22 @@ body {
 }
 
 .weather-header {
-  display:grid;
+  display:flex;
   height: auto;
-  padding: 0rem .5rem;
-  text-align: left;
+  flex-direction:row;
+  align-items: center;
   background-color: #011627;
   color: white;
+}
+
+.weather-header h1,h2 {
+  font-size: 1rem;
+}
+
+header .icon {
+  float: right;
+  background-color: #1481ba;
+  padding: .5rem;
 }
 
 .design-doc-menu {
@@ -26,23 +36,22 @@ body {
 
 .design-doc-menu ul {
   list-style:none;
-/*  color: #011627; */
   line-height: 0rem;
-  text-align: center;
-  padding-left: 0;
+  text-align: left;
 }
+
 .design-doc-menu a {
   display:block;
   padding: 1.25rem .75rem;
   color: #011627;
 }
 
-.design-doc-menu ul li a:hover{
+.active-link {
   background-color:#1481ba;
   color:white;
 }
 
-.active-link {
+.design-doc-menu ul li a:hover{
   background-color:#1481ba;
   color:white;
 }
