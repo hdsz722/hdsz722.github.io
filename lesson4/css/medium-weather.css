@@ -18,7 +18,14 @@
     .ham {
         display: none;
     }
+
+    .sec1, .sec2, .sec3, .sec4 {
+        margin: 0rem 3rem 1rem;
+    }
     
+    .sec2 {
+        display:block;
+    }
     .design-doc-menu {
         margin: 0em;
         display: flex;
@@ -26,7 +33,7 @@
         flex-wrap: wrap;
     }
 
-    main nav ul li {
+    .design-doc-menu li {
         padding:0em;
     }
 

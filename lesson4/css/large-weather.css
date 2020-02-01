@@ -24,18 +24,18 @@
         margin: 0em;
     }
 
-    main {
-        font-size:1em;
+    .sec1, .sec2, .sec3, .sec4 {
+        margin: 0rem 7rem;
     }
-
-   .section-container {
+    
+/*   .section-container {
         display:grid;
         width:auto;
         margin: 0em 0em;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1em;
     }
-
+*/
     #font-table .sec2 {
         grid-column: 2 / span 3;
     }
