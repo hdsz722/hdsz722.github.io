@@ -9,6 +9,6 @@
 
    let d = new Date();
    let oYear = d.getFullYear();
-   let oCurrentDate = days[d.getDay()] & ", " & d.getDate() & " " & months[d.getMonth()] & " " & d.getFullYear();
+   let oCurrentDate = days[d.getDay()] + ", " + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
    document.getElementById("todaydate").textContent = oCurrentDate;
    document.getElementById("copyrite").textContent = oYear;
