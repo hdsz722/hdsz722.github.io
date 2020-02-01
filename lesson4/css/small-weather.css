@@ -22,12 +22,6 @@ body {
   font-size: 1rem;
 }
 
-header .icon {
-  float: right;
-  background-color: #1481ba;
-  padding: .5rem;
-}
-
 .design-doc-menu {
   background-color: #a2cae5;
   font-size:.9rem;
@@ -68,17 +62,6 @@ h1, h2, h3 {
   font-family: 'Delius Swash Caps', serif;
 }
 
-table {
-  width:100%;
-  border-collapse: collapse;
-}
-
-td, th {
-  border: 1px solid #011627;
-  text-align: left;
-  padding: 0rem .25rem;
-}
-
 .sec1, .sec2, .sec3, .sec4 {
   width:auto;
   border-style: solid;
@@ -89,10 +72,6 @@ td, th {
   background-color: #d8d8d8a9;
   padding: 0rem 1rem 1rem 1rem;
 }
-
- main section img {
-  padding:.5rem;
-} 
 
 ol {
   text-align: left;
