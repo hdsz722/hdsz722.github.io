@@ -93,9 +93,6 @@ h1, h2, h3 {
 .sec2 {
   display:none;
 }
-ol {
-  text-align: left;
-}
 
 footer {
   display: grid;
