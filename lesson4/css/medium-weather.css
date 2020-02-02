@@ -19,13 +19,6 @@
         display: none;
     }
 
-    .sec1, .sec2, .sec3, .sec4 {
-        margin: 0rem 3rem 1rem;
-    }
-    
-    .sec2 {
-        display:block;
-    }
     .design-doc-menu {
         margin: 0em;
         display: flex;
@@ -37,8 +30,18 @@
         padding:0em;
     }
 
-    footer {
-        margin: 0rem 3rem;
+    .sec1, .sec2, .sec3, .sec4 {
+        width:auto;      
+        margin-left:5%;
+        margin-right:5%;
     }
-
-}
+    
+    .sec2 {
+        display:block;
+    }
+    
+    footer {
+        width:auto;      
+        margin-left:5%;
+        margin-right:5%;
+    }
