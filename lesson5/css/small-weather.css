@@ -111,10 +111,11 @@ h1, h2, h3 {
 
 .weathersummary {
   border: 1px solid #1481ba;
-  font-size:.6rem;
-  width:200px;
+  font-size:.7rem;
+  width:180px;
   background: #1481ba;
-  padding:.5rem;
+  color:white;
+  padding:.3rem;
   border:1px solid #011627;
   box-shadow: 0 0 30px #1481ba;
   position:absolute;
