@@ -66,6 +66,11 @@ nav {
   color:white;
 }
 
+.active-link {
+  background-color:#b3b5b6;
+  color:white;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
