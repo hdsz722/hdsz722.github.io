@@ -1,0 +1,120 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  background-color: white;
+  color:#011627;
+  width:100%;
+}
+
+.weather-header {
+  display:flex;
+  height: auto;
+  flex-direction:row;
+  align-items: center;
+  background-color: #011627;
+  color: white;
+}
+
+.weather-header h1 {
+  margin-bottom: .2rem;
+  margin-top: .1rem;
+  font-size: 1.1rem;
+}
+
+.weather-header h2 {
+  margin-top: .2rem;
+  font-size: 1rem;
+}
+
+nav {
+  background-color: #a2cae5;
+  font-size:.9rem;
+}
+
+.design-doc-menu {
+  list-style:none;
+  line-height: .5rem;
+  text-align: left;
+  font-weight: bold;
+  padding: 0;
+  margin:0;
+}
+
+.design-doc-menu li {
+  display:none;
+}
+
+.design-doc-menu li:first-child {
+  display:block;
+}
+.responsive li {
+  display:block;
+}
+
+.design-doc-menu a {
+  display:block;
+  text-decoration: none;
+  padding: 1rem .75rem;
+  color: #011627;
+}
+
+.design-doc-menu li a:hover{
+  background-color:#1481ba;
+  color:white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  width:100%;
+  text-align: center;
+  margin: 0rem 0rem 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Delius Swash Caps', serif;
+}
+
+.sec1, .sec2, .sec3, .sec4 {
+  width:100%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0rem;
+  border-color: #1481ba;
+  grid-column-gap: .1rem;
+  margin: .7rem 0rem 0rem;
+  background-color: #d8d8d8a9;
+  padding: 0rem 1rem 1rem;
+}
+
+.sec2 {
+  display:none;
+}
+
+footer {
+  display: grid;
+  text-align: center;
+  height: auto;
+  width:100%;
+  font-size: .8rem;
+  background-color: #a2cae5;
+  color: #011627;
+  line-height: 0rem;
+  padding: .2rem 0;
+}
+
+footer a {
+  color:#011627;
+}
+
+footer a:hover {
+  background-color:#1481ba;
+  color:white;
+}
+
+#todaydate {
+  font-size:1rem;
+}

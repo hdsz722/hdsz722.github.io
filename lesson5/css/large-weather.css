@@ -1,0 +1,45 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'large' media query section */
+@media only screen and (min-width: 65em){
+    .weather-header {
+        height: auto; 
+    }
+
+    .weather-header h1 {
+        font-size: 1.7rem;
+    }
+
+    .weather-header h2 {
+        font-size: 1.5rem;;
+    }
+
+    .design-doc-menu {
+        display:flex;
+    }
+    .design-doc-menu li {
+        display:flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+    }
+      
+      .design-doc-menu li:first-child {
+        display:none;
+      }
+
+    .design-doc-menu li a{
+        margin: 0em;
+    }
+
+    .sec1, .sec2, .sec3, .sec4 {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+     footer {
+        font-size:1em;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+}
