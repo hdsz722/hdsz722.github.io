@@ -104,16 +104,23 @@ h1, h2, h3 {
   height:auto;
 }
 
+#forecast {
+  display: flex;
+  flex-direction: row;
+}
+
 .weathersummary {
   border: 1px solid #1481ba;
   font-size:.75rem;
-  width:35%;
-  background-image: radial-gradient( #d8d8d8a9, #1481ba);
+  width:200px;
+  background: #1481ba;
   padding:.5rem;
   border:1px solid #011627;
+  box-shadow: 0 0 30px #1481ba;
   position:absolute;
   top: 10px;
   left:10px;
+  opacity: 90%;
 }
 
 .sec2 {
