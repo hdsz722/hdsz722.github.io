@@ -16,6 +16,10 @@
         font-size:1.5rem; 
     }
 
+    main h1 {
+        max-width: 1024;
+    }
+
     .weather-header h2 {
         font-size:1.3rem; 
     }
@@ -35,19 +39,19 @@
     }
 
     .sec1, .sec2, .sec3, .sec4 {
-        width:auto;      
-        margin-left:5%;
-        margin-right:5%;
+        width:92vw;   
+        max-width: 1024;   
     }
     
     .forecast {
         display:flex;
         flex-direction: row;
     }
-    
+
     footer {
-        width:auto;      
-        margin-left:5%;
-        margin-right:5%;
+        font-size: 1rem;
+        width: 92vm;
+        max-width: 1024px;
+        margin: .5rem auto 0em;
     }
 }

@@ -31,15 +31,4 @@
         margin: 0em;
     }
 
-    .sec1, .sec2, .sec3, .sec4 {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-    }
-
-     footer {
-        font-size:1em;
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-    }
-
 }
