@@ -40,8 +40,8 @@
         margin-right:5%;
     }
     
-    .sec2 {
-        display:block;
+    .forecast {
+        display:flex;
     }
     
     footer {
