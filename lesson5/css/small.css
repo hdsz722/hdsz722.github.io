@@ -136,6 +136,7 @@ h1, h2, h3 {
 
 .article-photo {
   width: 25vw;
+  max-width: 240px;
   height:auto;
   float: right;
   top: 1rem;
