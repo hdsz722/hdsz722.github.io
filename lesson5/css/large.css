@@ -24,7 +24,9 @@
         font-size: 1.2rem;
         justify-content: space-around;
     }
-
+    .article-photo {
+        max-width: 360px;
+    }
     .prestonmap {
         width:50%;
     }
