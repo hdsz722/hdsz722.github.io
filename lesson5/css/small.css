@@ -91,7 +91,7 @@ h1, h2, h3 {
   font-family: 'Delius Swash Caps', serif;
 }
 
-.sec1, .sec2, .sec3, .sec4, .bannermessage {
+.sec1, .sec2, .sec3, .sec4 {
   max-width: 1024px;
   width:100vw;
   border-style: solid;
