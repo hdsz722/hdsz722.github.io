@@ -9,7 +9,6 @@
 
     .weather-header {
        background-image: linear-gradient(to right, #011627, #a2cae5);
-       justify-items: center;
     }
     
     .weather-header h1 {
@@ -66,8 +65,9 @@
     }
 
     .forecasticon {
-        box-shadow: 0 0. 30px #011627;
-        padding:0 1rem;
+
+        height: 6rem;
+        width: 6rem;
     }
 
     .sec4 {
