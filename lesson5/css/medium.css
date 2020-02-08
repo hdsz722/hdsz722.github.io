@@ -24,7 +24,7 @@
         max-width: 1024;
     }
 
-    .weather-header h2 {
+    .weather-header div p {
         font-size:1.3rem; 
     }
     .ham {
@@ -39,8 +39,7 @@
         flex-wrap: wrap;
     }
 
-    .design-doc-menu li {
-        padding:0em;
+    .responsive li {
         display:flex;
         justify-content: space-between;
     }
@@ -53,10 +52,12 @@
     .forecast {
         display:flex;
         flex-direction: row;
+        justify-content: space-around;
     }
 
-    .forecast div {
-        justify-content: space-between;
+    .sec4 {
+        display:flex;
+        justify-content: space-around;
     }
 
     .prestonmap {

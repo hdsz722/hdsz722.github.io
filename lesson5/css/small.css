@@ -30,7 +30,7 @@ body {
   width: auto;
 }
 
-.weather-header h2 {
+.weather-header div p {
   margin-top: .2rem;
   font-size: 1rem;
 }
@@ -96,6 +96,7 @@ h1, h2, h3 {
 
 .sec1, .sec2, .sec3, .sec4 {
   max-width: 1024px;
+  width:100vw;
   border-style: solid;
   border-width: 1px;
   border-radius: 0rem;

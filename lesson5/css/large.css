@@ -4,34 +4,28 @@
 @media only screen and (min-width: 65em){
     .weather-header {
         height: auto; 
+        justify-content:center;
     }
 
     .weather-header h1 {
         font-size: 1.7rem;
     }
 
-    .weather-header h2 {
-        font-size: 1.5rem;;
-    }
-
-    .design-doc-menu {
-        display:flex;
-    }
-    .design-doc-menu li {
-        display:flex;
-        flex-direction: row;
-        flex-wrap:nowrap;
+    .weather-header div p {
+        font-size: 1.5rem;
     }
       
       .design-doc-menu li:first-child {
         display:none;
       }
 
-    .design-doc-menu li a{
-        margin: 0em;
+      .design-doc-menu li {
+        display:flex;
+        font-size: 1.2rem;
+        justify-content: space-around;
     }
 
     .prestonmap {
-        width:100%;
+        width:50%;
     }
 }
