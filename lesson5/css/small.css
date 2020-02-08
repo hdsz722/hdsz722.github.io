@@ -133,7 +133,7 @@ h1, h2, h3 {
   opacity: 80%;
 }
 
-.forecast {
+.forecast-container {
   display: none;
 }
 

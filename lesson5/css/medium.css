@@ -49,7 +49,7 @@
         max-width: 1024;   
     }
     
-    .forecast {
+    .forecast-container {
         display:flex;
         flex-direction: row;
         justify-content: space-around;
