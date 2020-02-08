@@ -13,6 +13,7 @@ body {
   display:flex;
   height: auto;
   flex-direction:row;
+  align-content: center;
   align-items: center;
   background-color: #011627;
   color: white;
@@ -22,6 +23,11 @@ body {
   margin-bottom: .2rem;
   margin-top: .1rem;
   font-size: 1.1rem;
+}
+
+.logo {
+  height: .7em;
+  width: auto;
 }
 
 .weather-header h2 {
