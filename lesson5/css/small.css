@@ -132,8 +132,16 @@ h1, h2, h3 {
   opacity: 80%;
 }
 
-. {
+.forecast {
   display: none;
+}
+
+.article-photo {
+  width: 25vw;
+  height:auto;
+  float: right;
+  top: 1rem;
+  right: 1rem;
 }
 
 .prestonmap {

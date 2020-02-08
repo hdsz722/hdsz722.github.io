@@ -35,11 +35,14 @@
         margin: 0em;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
     .design-doc-menu li {
         padding:0em;
+        display:flex;
+        justify-content: space-between;
     }
 
     .sec1, .sec2, .sec3, .sec4 {
@@ -50,6 +53,10 @@
     .forecast {
         display:flex;
         flex-direction: row;
+    }
+
+    .forecast div {
+        justify-content: space-between;
     }
 
     .prestonmap {
