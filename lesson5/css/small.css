@@ -8,6 +8,10 @@ body {
   color:#011627;
 }
 
+.bannermessage {
+
+}
+
 .weather-header {
   display:flex;
   height: auto;
