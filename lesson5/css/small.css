@@ -131,6 +131,10 @@ h1, h2, h3 {
   flex-direction: row;
 }
 
+.prestonmap {
+  display:none;
+}
+
 footer {
   display: grid;
   text-align: center;

@@ -48,6 +48,10 @@
         flex-direction: row;
     }
 
+    .prestonmap {
+        display: block;
+    }
+
     footer {
         font-size: 1rem;
         width: 92vm;
