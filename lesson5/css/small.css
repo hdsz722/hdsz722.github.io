@@ -133,8 +133,7 @@ h1, h2, h3 {
 }
 
 .forecast {
-  display: flex;
-  flex-direction: row;
+  display: none;
 }
 
 .prestonmap {
