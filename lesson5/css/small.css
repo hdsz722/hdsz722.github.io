@@ -6,7 +6,6 @@ body {
   font-size:16px;
   background-color: white;
   color:#011627;
-  width:100vw;
 }
 
 .weather-header {
@@ -19,15 +18,19 @@ body {
   color: white;
 }
 
-.weather-header h1 {
-  margin-bottom: .2rem;
-  margin-top: .1rem;
-  font-size: 1.1rem;
+.header-text {
+  width:50%;
 }
 
 .logo {
   height: 60px;
   width: auto;
+}
+
+.weather-header h1 {
+  font-size: 1.1rem;
+  max-width: 1024px;
+  margin:.5rem auto .5rem;
 }
 
 .weather-header div p {
@@ -88,13 +91,7 @@ h1, h2, h3 {
   font-family: 'Delius Swash Caps', serif;
 }
 
-.weather-header h1 {
-  width:92vw;
-  max-width: 1024px;
-  margin:.5em auto .5em;
-}
-
-.sec1, .sec2, .sec3, .sec4 {
+.sec1, .sec2, .sec3, .sec4, .bannermessage {
   max-width: 1024px;
   width:100vw;
   border-style: solid;
