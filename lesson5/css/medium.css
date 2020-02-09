@@ -82,11 +82,11 @@
     }
 
     .article-photo {
-        width: 8rem;
-        max-width: 240px;
+        width: 30%;
+        max-width: 360px;
         height:auto;
         float: right;
-        margin: 1rem;
+        margin: 4rem 1rem 1rem;
       }
       
     .prestonmap {

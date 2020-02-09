@@ -138,6 +138,9 @@ h1, h2, h3 {
   display: none;
 }
 
+.article {
+  padding: 0 1rem;
+}
 .article-photo {
   width: 90%;
   max-width: 240px;
