@@ -30,4 +30,9 @@
     .prestonmap {
         width:50%;
     }
+    
+    .address div {
+        margin: auto 5rem;
+    }
+
 }
