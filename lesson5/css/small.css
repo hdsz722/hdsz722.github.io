@@ -15,7 +15,7 @@ body {
 .weather-header {
   display:flex;
   height: auto;
-  width:100%;
+  width:100vw;
   flex-direction:row;
   justify-content: center;
   justify-items: center;
@@ -163,7 +163,7 @@ footer {
   display: grid;
   text-align: center;
   height: auto;
-  width:100%;
+  width:100vw;
   font-size: .8rem;
   background-color: #a2cae5;
   color: #011627;

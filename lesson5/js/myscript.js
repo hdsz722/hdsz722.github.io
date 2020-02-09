@@ -34,6 +34,21 @@
    document.getElementById("forecast5").textContent = oForeDateFive;
    document.getElementById("copyrite").textContent = oYear;
 
+   switch (new date().getDay()) {
+      case 0:
+      case 1:
+      case 2:
+      case 3:
+      case 4:
+      case 6:
+         document.getElementById("bannermessage").style.display = "none";
+         break;
+      case 5:
+         document.getElementById("bannermessage").style.display = "block";
+         break;
+   }
+
+
    const hambutton = document.querySelector (".ham");
    hambutton.addEventListener ("click", toggleMenu, false);
 
