@@ -5,17 +5,27 @@
 */
 
    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-   var daysShort = ["Sun", "Mon", "Tue", "Wed", "Thursday", "Fri", "Sat"];
+   var daysShort = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
    let d = new Date();
+   let d2 = new Date();
+   let d3 = new Date();
+   let d4 = new Date();
+   let d5 = new Date();
+   let d6 = new Date();
+   d2.setDate(d.getDate()+1);
+   d3.setDate(d2.getDate()+1);
+   d4.setDate(d3.getDate()+1);
+   d5.setDate(d4.getDate()+1);
+   d6.setDate(d5.getDate()+1);
    let oYear = d.getFullYear();
    let oCurrentDate = days[d.getDay()] + ", " + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
-   let oForeDateOne = daysShort[d.getDay()] + " " + [d.getDate()+1];
-   let oForeDateTwo = daysShort[d.getDay()] + " " + [d.getDate()+2];
-   let oForeDateThree = daysShort[d.getDay()] + " " + [d.getDate()+3];
-   let oForeDateFour = daysShort[d.getDay()] + " " + [d.getDate()+4];
-   let oForeDateFive = daysShort[d.getDay()] + " " + [d.getDate()+5];
+   let oForeDateOne = daysShort[d2.getDay()] + " " + [d2.getDate()];
+   let oForeDateTwo = daysShort[d3.getDay()] + " " + [d3.getDate()];
+   let oForeDateThree = daysShort[d4.getDay()] + " " + [d4.getDate()];
+   let oForeDateFour = daysShort[d5.getDay()] + " " + [d5.getDate()];
+   let oForeDateFive = daysShort[d6.getDay()] + " " + [d6.getDate()];
    document.getElementById("todaydate").textContent = oCurrentDate;
    document.getElementById("forecast1").textContent = oForeDateOne;
    document.getElementById("forecast2").textContent = oForeDateTwo;
