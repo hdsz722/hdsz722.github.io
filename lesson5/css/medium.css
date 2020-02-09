@@ -57,6 +57,10 @@
         width:92vw;   
         max-width: 1024px;   
     }
+
+    .weathersummary table {
+        font-size: 1rem;
+    }    
     
     .forecast-container {
         display:flex;
