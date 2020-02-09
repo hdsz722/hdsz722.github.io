@@ -15,6 +15,7 @@ body {
 .weather-header {
   display:flex;
   height: auto;
+  width:100%;
   flex-direction:row;
   justify-content: center;
   justify-items: center;
@@ -151,6 +152,11 @@ h1, h2, h3 {
 
 .prestonmap {
   display:none;
+}
+
+.address {
+  margin-left: 25vw;
+  text-align: left;
 }
 
 footer {

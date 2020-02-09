@@ -87,11 +87,22 @@
         height:auto;
         float: right;
         margin: 4rem 1rem 1rem;
-      }
+    }
+
+    .preston-contact {
+        display: block;
+    }
       
     .prestonmap {
         display: block;
         width: 50vw;
+        height: auto;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: row;
+        margin-left:2rem;
     }
 
     footer {
