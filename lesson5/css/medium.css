@@ -20,8 +20,17 @@
         width:auto;
     }
 
+    .header-text {
+        padding-top: 1rem;
+        width:350px;
+      }
+      
+      .logo {
+        padding-top: 0;
+      }
     main h1 {
-        max-width: 1024px;
+        max-width: 92vw;
+        margin: 1rem auto;
     }
 
     .weather-header div p {
