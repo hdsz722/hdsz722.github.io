@@ -34,7 +34,7 @@
    document.getElementById("forecast5").textContent = oForeDateFive;
    document.getElementById("copyrite").textContent = oYear;
 
-   switch (new date().getDay()) {
+   switch (d.getDay()) {
       case 0:
       case 1:
       case 2:
