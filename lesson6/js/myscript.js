@@ -22,14 +22,12 @@
    d6.setDate(d5.getDate()+1);
    let oYear = d.getFullYear();
    let oCurrentDate = days[d.getDay()] + ", " + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
-   let oSummaryDate = daysShort[d.getDay()] + " " + [d.getDate()];
    let oForeDateOne = daysShort[d2.getDay()] + " " + [d2.getDate()];
    let oForeDateTwo = daysShort[d3.getDay()] + " " + [d3.getDate()];
    let oForeDateThree = daysShort[d4.getDay()] + " " + [d4.getDate()];
    let oForeDateFour = daysShort[d5.getDay()] + " " + [d5.getDate()];
    let oForeDateFive = daysShort[d6.getDay()] + " " + [d6.getDate()];
    document.getElementById("todaydate").textContent = oCurrentDate;
-   document.getElementById("summarydate").textContent = oSummaryDate;
    document.getElementById("forecast1").textContent = oForeDateOne;
    document.getElementById("forecast2").textContent = oForeDateTwo;
    document.getElementById("forecast3").textContent = oForeDateThree;
