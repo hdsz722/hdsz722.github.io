@@ -1,0 +1,209 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  background-color: white;
+  color:#011627;
+}
+
+#bannermessage {
+  background-color: yellow;
+}
+
+.weather-header {
+  display:flex;
+  height: auto;
+  width:99vw;
+  flex-direction:row;
+  justify-content: center;
+  justify-items: center;
+  background-color: #011627;
+  color: white;
+}
+
+.header-text {
+  padding-top: .5rem;
+  width:220px;
+}
+
+.logo {
+  padding-top: .5rem;
+  height: 60px;
+  width: auto;
+}
+
+.weather-header h1 {
+  font-size: 1.1rem;
+  max-width: 1024px;
+  margin:.5rem auto .5rem;
+}
+
+.weather-header div p {
+  margin-top: .2rem;
+  font-size: 1rem;
+}
+
+nav {
+  background-color: #a2cae5;
+  font-size:.9rem;
+  width: 99vw;
+}
+
+.design-doc-menu {
+  list-style:none;
+  line-height: .5rem;
+  text-align: left;
+  font-weight: bold;
+  padding: 0;
+  margin:0;
+}
+
+.design-doc-menu li {
+  display:none;
+}
+
+.design-doc-menu li:first-child {
+  display:block;
+}
+.responsive li {
+  display:block;
+}
+
+.design-doc-menu a {
+  display:block;
+  text-decoration: none;
+  padding: 1rem .75rem;
+  color: #011627;
+}
+
+.design-doc-menu li a:hover{
+  background-color:#1481ba;
+  color:white;
+}
+
+.active-link {
+  background-color:#b3b5b6;
+  color:white;
+}
+
+main h1 {
+  max-width: 92vw;
+  margin: 1rem auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Delius Swash Caps', serif;
+}
+
+.sec1, .sec2, .sec3, .sec4 {
+  max-width: 1024px;
+  width:97.5vw;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0rem;
+  border-color: #1481ba;
+  grid-column-gap: .1rem;
+  margin: 0 auto 1em;
+  background: #d8d8d8a9;
+  padding: 0rem;
+}
+
+.sec1 {
+  position: relative;
+  padding:0;
+}
+
+.heroimg {
+  width:100%;
+  height:auto;
+  overflow: hidden;
+}
+
+.weathersummary {
+  border: 1px solid #1481ba;
+  font-size:.7rem;
+  width:180px;
+  background: #1481ba;
+  color:white;
+  padding:.3rem;
+  border:1px solid #011627;
+  box-shadow: 0 0 20px #1b1985;
+  position:absolute;
+  top: 10px;
+  left:10px;
+  opacity: 80%;
+}
+
+table {
+  width: 100%;
+  padding: .1rem;
+  font-size: .9rem;
+}
+
+table .tblHead {
+  width:50%;
+  text-align: right;
+}
+
+table .tblData {
+  text-align: left;
+}
+
+.forecast-container {
+  display: none;
+}
+
+.article {
+  padding: 0 1rem;
+}
+.article-photo {
+  width: 90%;
+  max-width: 240px;
+  height:auto;
+  float: top;
+  margin-top: 1rem;
+}
+
+.prestonmap {
+  display:none;
+  margin: 0 0 1rem;
+}
+
+.address {
+  margin-left: 25vw;
+  text-align: left;
+}
+
+footer {
+  display: grid;
+  text-align: center;
+  height: auto;
+  width:99vw;
+  font-size: .8rem;
+  background-color: #a2cae5;
+  color: #011627;
+  line-height: 0rem;
+  padding: .2rem 0;
+}
+
+footer a {
+  color:#011627;
+}
+
+footer a:hover {
+  background-color:#1481ba;
+  color:white;
+}
+
+#todaydate {
+  font-size:1rem;
+}
