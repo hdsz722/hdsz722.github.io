@@ -49,7 +49,6 @@
          break;
    }
 
-
    const hambutton = document.querySelector (".ham");
    hambutton.addEventListener ("click", toggleMenu, false);
 

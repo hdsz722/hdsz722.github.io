@@ -49,24 +49,24 @@
                 <h2>Weather Summary</h2>
                 <table>
                     <tr>
-                        <td class="tblHead">Currantly:</td>
-                        <td class="tblData"><span>18°</span></td>
+                        <td class="tblHead">Currently:</td>
+                        <td class="tblData"><span id="curTemp">18</span>°</td>
                     </tr>
                     <tr>
                         <td class="tblHead">High:</td>
-                        <td class="tblData"><span>20°</span></td>
+                        <td class="tblData"><span>20</span>°</td>
                     </tr>
                     <tr>
                         <td class="tblHead">Low:</td>
-                        <td class="tblData"><span>3°</span></td>
+                        <td class="tblData"><span>3</span>°</td>
                     </tr>
                     <tr>
                         <td class="tblHead">Wind:</td>
-                        <td class="tblData"><span>0 mph</span></td>
+                        <td class="tblData"><span id="windSpeed">10</span> mph</td>
                     </tr>
                     <tr>
                         <td class="tblHead">Feels Like:</td>
-                        <td class="tblData"><span>18°</span></td>
+                        <td class="tblData"><span id="windChill"></span>°</td>
                     </tr>
                 </table>
             </div>
@@ -146,5 +146,6 @@
         <p><span id="todaydate"></span></p>
     </footer>
     <script src="js/myscript.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
