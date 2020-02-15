@@ -3,27 +3,29 @@
 /* 'medium' media query section */
 @media only screen and (min-width: 32.5em){
 
-    .profilepicture {
-        float: right;
-        margin-top: 1em;
-        margin-right: 1em;
-    }
-
     header {
-       font-size:1.25em; 
-       width:75vw;
-       margin-top: 10px;
-       margin-left:12.5vw;
-       border-radius: 1em;
-       padding: .5em; 
-       font-size:1.25em; 
+        display: block;
+        font-size:1.25em; 
+        width:75vw;
+        max-width: 600px;
+        margin-top: 10px;
+        margin-left:12.5vw;
+        border-radius: 1em;
+        padding: .5em; 
+        font-size:1.25em; 
   }
+
+  .profilepicture {
+    float: right;
+}
+
     .pagereturn {
         font-size:.9em;
     }
 
     main {
         width:50vw;
+/*        max-width: 600px; */
         margin-left:12.5vw;
     }
 
@@ -44,18 +46,28 @@
     }
 
     .linklist h2 {
-        margin-left:2em;
+        margin-left:1em;
     }
-    
+
     .studentname {
-        width:50vw;
+        width:75vw;
+        max-width: 600px;
         font-size: 2rem;
-        padding: .5em 0em;
+        border-radius: .5em;
+        text-align: left;
+        padding: .5em 0em .5em 1em;
+    }
+
+    .subpage {
+        width: 100%;
+        margin:0;
+        border-radius: 0;
     }
 
     footer {
         height: auto;
         width:75vw;
+        max-width: 600px;
         margin-top: 10px;
         margin-left:12.5vw;
         border-radius: 1em;
@@ -63,9 +75,4 @@
         font-size: .9em;
     }
 
-    .subpage {
-        width: 100vw;
-        margin:0;
-        border-radius: 0;
-    }
 }

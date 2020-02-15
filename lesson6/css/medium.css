@@ -3,10 +3,6 @@
 /* 'medium' media query section */
 @media only screen and (min-width: 32.5em){
 
-    .logo {
-        margin-left: .5em; 
-    }
-
     .weather-header {
        background-image: linear-gradient(to right, #011627, #a2cae5);
     }

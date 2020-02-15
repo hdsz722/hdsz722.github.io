@@ -6,6 +6,8 @@ body {
   font-size:16px;
   background-color: white;
   color:#011627;
+  width: 100vw;
+/*  overflow-x: hidden;*/
 }
 
 #bannermessage {
@@ -15,7 +17,7 @@ body {
 .weather-header {
   display:flex;
   height: auto;
-  width:99vw;
+  width:97.5vw;
   flex-direction:row;
   justify-content: center;
   justify-items: center;
@@ -42,15 +44,22 @@ body {
 
 .weather-header div p {
   margin-top: .2rem;
-  font-size: 1rem;
+  font-size: .9rem;
+}
+
+#bannermessage {
+  width:97.5vw;
 }
 
 nav {
+  width: 97.5vw;
   background-color: #a2cae5;
   font-size:.9rem;
-  width: 99vw;
 }
 
+.town {
+  width:97.5vw;
+}
 .design-doc-menu {
   list-style:none;
   line-height: .5rem;
@@ -95,6 +104,7 @@ main h1 {
 
 main {
   display: grid;
+  width:100vw;
   grid-template-columns: 1fr;
   text-align: center;
   margin: 0 auto;
@@ -105,7 +115,7 @@ h1, h2, h3 {
 }
 
 .sec1, .sec2, .sec3, .sec4 {
-  max-width: 1024px;
+/*  max-width: 1024px; */
   width:97.5vw;
   border-style: solid;
   border-width: 1px;
@@ -125,7 +135,6 @@ h1, h2, h3 {
 .heroimg {
   width:100%;
   height:auto;
-  overflow: hidden;
 }
 
 .weathersummary {
@@ -187,7 +196,7 @@ footer {
   display: grid;
   text-align: center;
   height: auto;
-  width:99vw;
+  width:100%;
   font-size: .8rem;
   background-color: #a2cae5;
   color: #011627;
