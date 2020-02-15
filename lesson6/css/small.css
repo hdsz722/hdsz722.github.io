@@ -17,7 +17,6 @@ body {
 .weather-header {
   display:flex;
   height: auto;
-  width:97.5vw;
   flex-direction:row;
   justify-content: center;
   justify-items: center;
@@ -47,19 +46,11 @@ body {
   font-size: .9rem;
 }
 
-#bannermessage {
-  width:97.5vw;
-}
-
 nav {
-  width: 97.5vw;
   background-color: #a2cae5;
   font-size:.9rem;
 }
 
-.town {
-  width:97.5vw;
-}
 .design-doc-menu {
   list-style:none;
   line-height: .5rem;
@@ -104,7 +95,6 @@ main h1 {
 
 main {
   display: grid;
-  width:100vw;
   grid-template-columns: 1fr;
   text-align: center;
   margin: 0 auto;
@@ -116,7 +106,7 @@ h1, h2, h3 {
 
 .sec1, .sec2, .sec3, .sec4 {
 /*  max-width: 1024px; */
-  width:97.5vw;
+  width:95%;
   border-style: solid;
   border-width: 1px;
   border-radius: 0rem;
@@ -196,7 +186,6 @@ footer {
   display: grid;
   text-align: center;
   height: auto;
-  width:100%;
   font-size: .8rem;
   background-color: #a2cae5;
   color: #011627;
