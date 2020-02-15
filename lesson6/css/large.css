@@ -31,7 +31,7 @@
     }
     
     .address div {
-        margin: auto 5rem;
+        font-size: larger;
     }
 
 }

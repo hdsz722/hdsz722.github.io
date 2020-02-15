@@ -70,7 +70,7 @@
         flex-direction: row;
         justify-content: space-around;
         background-color: #a2cae5;
-        max-width:600px;
+        max-width:900px;
         width:90%;
         margin: 0 auto;
         padding: .7rem .5rem;
@@ -80,6 +80,7 @@
         max-width: 100px;
         height: auto;
         width: 5rem;
+        box-shadow: 0 0 5px #011627;
     }
 
     .forecast div p{
@@ -97,6 +98,7 @@
         height:auto;
         float: right;
         margin: 4rem 1rem 1rem;
+        box-shadow: 0 0 5px #011627;
     }
 
     .preston-contact {
@@ -107,6 +109,7 @@
         display: block;
         width: 50vw;
         height: auto;
+        box-shadow: 0 0 5px #011627;
     }
 
     .address {
@@ -117,7 +120,7 @@
     }
 
     .address div {
-        margin: auto 2rem auto 2rem;
+        margin: auto;
     }
     footer {
         font-size: 1rem;

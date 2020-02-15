@@ -45,9 +45,9 @@
 
         <div class="sec1">
             <picture>
-                <img class="heroimg" src="images/cit230_image_franklin-400.jpg" alt="responsive hero images" 
-                    srcset = "images/cit230_image_franklin-800.jpg 800w,
-                              images/cit230_image_franklin-1024.jpg 1024w,">
+                <source srcset="images/cit230_image_franklin-800.jpg" media="(min-width: 32.5em) and (max-width:64.99em)">
+                <source srcset="images/cit230_image_franklin-1024.jpg" media="(min-width: 65em)">
+                <img class="heroimg" src="images/cit230_image_franklin-400.jpg" alt="responsive hero images">
             </picture>
             <div class="weathersummary">
                 <h2>Weather Summary</h2>
