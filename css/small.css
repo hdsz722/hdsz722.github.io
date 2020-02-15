@@ -1,12 +1,6 @@
 /* CSS files add styling rules to your content */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');*/
 
-body {
-/*  font-family: 'Open Sans', sans-serif; */
-  font-size:14px;
-  background-color: #ffffffa9;
-  width:100%;
-}
 
 WebFont.load({
   google: {
@@ -16,6 +10,13 @@ WebFont.load({
   }
 });
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    background-color: #ffffffa9;
+    width:100%;
+  }
+  
 header {
   display:block;
   height: auto;
@@ -49,10 +50,10 @@ main {
 .profilepicture {
   display:block;
   align-content:center;
-  margin: 1em auto;
+  margin: .1em auto;
 }
 
-.studentname, .subpage {
+.subpage {
   text-align: center;
   color: #c2ff7c;
   width: 100%;
@@ -82,7 +83,7 @@ main section img {
 
 h2 {
   text-decoration-line: underline;
-  text-align: center;
+  text-align: left;
 }
 
 .linklist {
