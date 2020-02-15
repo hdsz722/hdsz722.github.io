@@ -129,8 +129,9 @@ h1, h2, h3 {
 
 .weathersummary {
   font-size:.7rem;
+  font-weight: bold;
   width:180px;
-  background: #1481ba;
+  background-image: radial-gradient( #1481ba, #0f608b);
   color:white;
   padding:.3rem;
   border:1px solid #011627;
