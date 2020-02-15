@@ -128,7 +128,6 @@ h1, h2, h3 {
 }
 
 .weathersummary {
-  border: 1px solid #1481ba;
   font-size:.7rem;
   width:180px;
   background: #1481ba;
@@ -136,6 +135,7 @@ h1, h2, h3 {
   padding:.3rem;
   border:1px solid #011627;
   box-shadow: 0 0 20px #011627;
+  border-radius: .5rem;
   position:absolute;
   top: 10px;
   left:10px;
@@ -144,7 +144,7 @@ h1, h2, h3 {
 
 table {
   width: 100%;
-  padding: .1rem;
+  padding: .2rem .1rem;
   font-size: .9rem;
 }
 
