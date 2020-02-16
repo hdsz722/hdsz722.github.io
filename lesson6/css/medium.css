@@ -87,6 +87,10 @@
         margin: .1rem auto;
     }
 
+    .article {
+        text-align: justify;
+    }
+
     .sec4 {
         display:flex;
         justify-content: space-around;
