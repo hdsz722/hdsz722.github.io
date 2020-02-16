@@ -27,7 +27,12 @@
         max-width: 720px;
     }
     .prestonmap {
-        width:50%;
+        width:60%;
+    }
+
+    .address div p {
+        margin: auto;
+        font-size: 1.2rem;
     }
     
     .address div {
