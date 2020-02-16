@@ -133,7 +133,7 @@ h1, h2, h3 {
   width:180px;
   background-image: radial-gradient( #1481ba, #0f608b);
   color:white;
-  padding:.3rem auto;
+  padding:.3rem 0 .1rem .1rem;
   border:1px solid #011627;
   box-shadow: 0 0 20px #011627;
   border-radius: .5rem;
