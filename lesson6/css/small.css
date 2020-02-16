@@ -133,7 +133,7 @@ h1, h2, h3 {
   width:180px;
   background-image: radial-gradient( #1481ba, #0f608b);
   color:white;
-  padding:.3rem;
+  padding:.3rem auto;
   border:1px solid #011627;
   box-shadow: 0 0 20px #011627;
   border-radius: .5rem;
@@ -141,6 +141,11 @@ h1, h2, h3 {
   top: 10px;
   left:10px;
   opacity: 80%;
+}
+.weathersummary h2 {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  margin-bottom: .5rem;
 }
 
 table {
