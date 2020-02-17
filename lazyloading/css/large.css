@@ -2,5 +2,9 @@
 
 /* 'large' media query section */
 @media only screen and (min-width: 65em){
+    img {
+        min-width: 800px;
+        min-height: 450px;
+    }
     
 }

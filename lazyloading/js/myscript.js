@@ -12,7 +12,7 @@ const imgOptions = {
   rootMargin: "0px 0px -300px 0px"
 };
 
-const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+const imgObserver = new IntersectionObserver(function(entries, imgObserver) {
   entries.forEach(entry => {
     if (!entry.isIntersecting) {
       return;
