@@ -22,7 +22,7 @@ h1 {
   picture { flex-grow: 1;}
   
   img {
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 320px;
+    min-height: 180px;
     width: 100%;
   }
