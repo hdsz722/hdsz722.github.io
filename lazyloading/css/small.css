@@ -26,3 +26,12 @@ h1 {
     min-height: 141px;
     width: 100%;
   }
+
+  section img[data-src] {
+      filter: blur(.2em);
+  }
+
+  section img {
+      filter: blur (0em);
+      transition:  filter 0.5s;
+  }
