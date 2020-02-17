@@ -28,12 +28,12 @@ h1 {
   }
 
   section img[data-src] {
-      filter: blur(.2em);
+      filter: blur(.4em);
   }
 
   section img {
       filter: blur (0em);
-      transition:  filter 0.5s;
+      transition:  filter 3s;
   }
 
   a {
