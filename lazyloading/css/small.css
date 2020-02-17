@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+  }
+  
+  section {
+    margin: 1rem auto;
+    display:grid;
+    width: 75%;
+  }
+  
+  h2 {
+   text-align:  center;
+  }
+  
+  picture { flex-grow: 1;}
+  
+  img {
+    min-width: 50px;
+    min-height: 50px;
+    width: 100%;
+  }

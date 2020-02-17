@@ -1,0 +1,6 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'medium' media query section */
+@media only screen and (min-width: 32.5em){
+
+}
