@@ -35,3 +35,8 @@ h1 {
       filter: blur (0em);
       transition:  filter 0.5s;
   }
+
+  a {
+      color: red;
+      text-decoration: none;
+  }
