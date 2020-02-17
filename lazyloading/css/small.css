@@ -5,11 +5,18 @@ h1 {
   section {
     margin: 1rem auto;
     display:grid;
-    width: 75%;
+    width: 90%;
+    padding: 0 1rem;
+    border: solid 1px;
+  }
+
+  h1 {
+      font-size: 1.3rem;
   }
   
   h2 {
    text-align:  center;
+   font-size: 1.2rem;
   }
   
   picture { flex-grow: 1;}

@@ -2,5 +2,21 @@
 
 /* 'medium' media query section */
 @media only screen and (min-width: 32.5em){
-
+    h1 {
+        text-align: center;
+      }
+      
+      section {
+        max-width: 1024px;
+      }
+    
+      h1 {
+          font-size: 1.6rem;
+      }
+      
+      h2 {
+       text-align:  center;
+       font-size: 1.4rem;
+      }
+      
 }
