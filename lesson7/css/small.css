@@ -185,6 +185,26 @@ table .tblData {
   text-align: left;
 }
 
+.lazyLoadImages {
+  max-width: 400px;
+  background-color:#a2cae5;
+  margin:1rem auto;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px black;
+  padding: 1rem;
+}
+
+.lazyLoadImages img[data-src] {
+    filter: blur(.4em);
+}
+
+.lazyLoadImages img {
+    filter: blur (0em);
+    transition:  filter 3s;
+}
+
 footer {
   display: grid;
   text-align: center;
