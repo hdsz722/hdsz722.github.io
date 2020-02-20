@@ -203,7 +203,8 @@ table .tblData {
 .lazyLoadImages img {
     width: 95%;
     filter: blur (0em);
-    transition:  filter 3s;
+    transition:  filter 1.5s;
+    transition-delay: 1s;
 }
 
 footer {
