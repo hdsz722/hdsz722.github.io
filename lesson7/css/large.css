@@ -1,0 +1,40 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'large' media query section */
+@media only screen and (min-width: 65em){
+    .weather-header {
+        height: auto; 
+    }
+
+    .weather-header h1 {
+        font-size: 1.7rem;
+    }
+
+    .weather-header div p {
+        font-size: 1.5rem;
+    }
+      
+      .design-doc-menu li:first-child {
+        display:none;
+      }
+
+      .design-doc-menu li {
+        display:flex;
+        font-size: 1.2rem;
+        justify-content: space-around;
+    }
+
+    .prestonmap {
+        width:60%;
+    }
+
+    .address div p {
+        margin: auto;
+        font-size: 1.2rem;
+    }
+    
+    .address div {
+        font-size: larger;
+    }
+
+}
