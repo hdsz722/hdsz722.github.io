@@ -34,7 +34,8 @@ body {
 
   section img {
       filter: blur (0em);
-      transition:  filter 3s;
+      transition:  filter 1s;
+      transition-delay: 1s;
   }
 
   a {
