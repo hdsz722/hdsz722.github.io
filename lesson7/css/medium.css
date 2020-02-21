@@ -108,10 +108,11 @@
     .gallery-container {
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px 20px;
+        margin-top: 20px;
     }
 
     .lazyLoadImages {
-    max-width: 300px;
+    max-width: 350px;
     }    
     
     .preston-contact {

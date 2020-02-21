@@ -1,3 +1,5 @@
+// calculating windchill
+
 var t = parseFloat(document.getElementById('curTemp').textContent);
 var s = parseFloat(document.getElementById('windSpeed').textContent);
 var chill = 0;

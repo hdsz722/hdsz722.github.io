@@ -1,8 +1,4 @@
-/* Defining Table
-* Input: A person's name
-* Processing: Create a verse of scripture for that person
-* Output: The Scripture
-*/
+// calculating dates
 
    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
    var daysShort = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -47,11 +43,4 @@
       case 5:
          document.getElementById("bannermessage").style.display = "block";
          break;
-   }
-
-   const hambutton = document.querySelector (".ham");
-   hambutton.addEventListener ("click", toggleMenu, false);
-
-   function toggleMenu() {
-      document.querySelector(".design-doc-menu").classList.toggle("responsive");
    }

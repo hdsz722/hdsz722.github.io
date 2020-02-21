@@ -28,7 +28,16 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
             
-    .prestonmap {
+    .lazyLoadImages {
+        max-width: 450px;
+        transition: box-shadow 3ms;
+    }    
+
+    .lazyLoadImages:hover {
+        box-shadow: 0 0 20px 10px rgba(0,0,0,.5);
+    }
+        
+       .prestonmap {
         width:60%;
     }
 
