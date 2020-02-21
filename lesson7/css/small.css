@@ -185,10 +185,16 @@ table .tblData {
   text-align: left;
 }
 
+.gallery-container {
+  display:grid;
+  
+  grid-template-columns: 1fr;
+}
+
 .lazyLoadImages {
-  max-width: 400px;
+  max-width: 300px;
   background-color:#a2cae5;
-  margin:1rem auto;
+  margin:.5rem auto;
   text-align: center;
   border: 1px solid gray;
   border-radius: 1rem;

@@ -28,6 +28,10 @@
         width:60%;
     }
 
+    .gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      
     .address div p {
         margin: auto;
         font-size: 1.2rem;

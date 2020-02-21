@@ -105,6 +105,10 @@
         box-shadow: 0 0 5px #011627;
     }
 
+    .gallery-container {
+        grid-template-columns: 1fr 1fr;
+      }
+      
     .preston-contact {
         display: block;
     }
