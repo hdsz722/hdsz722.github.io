@@ -14,9 +14,9 @@
         font-size: 1.5rem;
     }
       
-      .design-doc-menu li:first-child {
-        display:none;
-      }
+    .design-doc-menu li:first-child {
+    display:none;
+    }
 
       .design-doc-menu li {
         display:flex;
@@ -24,6 +24,10 @@
         justify-content: space-around;
     }
 
+    .gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+            
     .prestonmap {
         width:60%;
     }
