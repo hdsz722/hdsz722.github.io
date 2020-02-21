@@ -24,6 +24,10 @@
         justify-content: space-around;
     }
 
+    .gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      
     .prestonmap {
         width:60%;
     }
