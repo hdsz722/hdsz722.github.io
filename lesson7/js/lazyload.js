@@ -10,7 +10,8 @@ if('IntersectionObserver' in window) {
         observer.unobserve(item.target);
       }
     });
-  });
+  }, imageOptinos);
+}
 
   imagesToLoad.forEach((img) => {
     observer.observe(img);
@@ -22,7 +23,7 @@ if('IntersectionObserver' in window) {
 }
 
 const imgOptions = {
-  threshold: 1,
+  threshold: 0,
   rootMargin: "0px 0px 50px 0px"
 };
 
