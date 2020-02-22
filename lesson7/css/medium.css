@@ -145,8 +145,8 @@
 
     footer {
         font-size: 1rem;
-        width: 92vw;
-        max-width: 1024px;
+/*        width: 92vw;
+        max-width: 1024px;*/
         margin: .5rem auto 0em;
     }
 }
