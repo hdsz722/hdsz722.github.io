@@ -25,7 +25,7 @@
         padding-top: 0;
       }
     main h1 {
-        max-width: 92vw;
+        max-width: 1024px;
         margin: 1rem auto;
     }
 
@@ -38,10 +38,11 @@
 
     .design-doc-menu {
         margin: 0em;
+        font-size:.6rem;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     .responsive li {
@@ -49,7 +50,6 @@
     }
 
     .sec1, .sec2, .sec3, .sec4 {
-        width:92vw;   
         max-width: 1024px;   
     }
 
