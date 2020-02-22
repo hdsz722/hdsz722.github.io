@@ -186,7 +186,6 @@ table .tblData {
 
 .gallery-container {
   display:grid;
-  
   grid-template-columns: 1fr;
 }
 
@@ -208,8 +207,7 @@ table .tblData {
 .lazyLoadImages img {
     width: 95%;
     filter: blur(0em);
-    transition: filter 1s;
-    transition-delay: 1s;
+    transition: filter .5s;
 }
 
 footer {
