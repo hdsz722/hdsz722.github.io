@@ -10,7 +10,7 @@ if('IntersectionObserver' in window) {
         observer.unobserve(item.target);
       }
     });
-  }, imgOptions);
+  }, /*imgOptions*/);
 
   imagesToLoad.forEach((img) => {
     observer.observe(img);
@@ -19,11 +19,11 @@ if('IntersectionObserver' in window) {
   imagesToLoad.forEach((img) => {
     loadImages(img);
   });
-}
+};
 
 const imgOptions = {
-  threshold: 0,
-  rootMargin: "0px 0px 50px 0px"
+  threshold: '1',
+  rootMargin: '0px 0px 50px 0px'
 };
 
 const loadImages = (image) => {
