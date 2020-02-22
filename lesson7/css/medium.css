@@ -40,13 +40,12 @@
         margin: 0em;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-wrap: wrap;
     }
 
     .responsive li {
         display:flex;
-        justify-content: space-between;
     }
 
     .sec1, .sec2, .sec3, .sec4 {
