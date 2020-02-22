@@ -61,12 +61,16 @@ nav {
 .design-doc-menu li {
   display:none;
 }
-
 .design-doc-menu li:first-child {
   display:block;
+  content:"&#9776; Menu";
 }
+
 .responsive li {
   display:block;
+}
+.responsive li:first-child {
+  content:"&#8678;";
 }
 
 .design-doc-menu a {
