@@ -18,7 +18,7 @@
     display:none;
     }
 
-      .design-doc-menu li {
+    .design-doc-menu li {
         display:flex;
         font-size: 1rem;
         justify-content: space-around;
