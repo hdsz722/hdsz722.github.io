@@ -38,9 +38,8 @@
 
     .design-doc-menu {
         margin: 0em;
-        font-size:.6rem;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(7,auto);
         justify-content: space-evenly;
         flex-wrap: nowrap;
     }
