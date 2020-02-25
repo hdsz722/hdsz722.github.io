@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Preston, Idaho Weather | Arctic Blast</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the Preston Idaho weather page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header class="weather-header">
+        <img class="logo" src="../images/arctic-blast-logo.png" alt="arctic blast logo">
+        <div class="header-text">
+            <h1>The Arctic Blast</h1>
+            <p>A Forecast you can count on!</p>
+        </div>
+   </header>
+
+    <main>
+        <div id="bannermessage">
+            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+
+        <nav>
+            <ul class="design-doc-menu">
+                <li> <a class="ham" href="#">&#9776; Menu</a></li>
+                <li> <a href="../">Home</a></li>
+                <li> <a class="active-link" href="preston-7.html">Preston</a></li>
+                <li> <a href="#">Soda Springs</a></li>
+                <li> <a href="#">Fish Haven</a></li>
+                <li> <a href="#">Storm Center</a></li>                
+                <li> <a href="gallery-7.html">Gallery</a></li>            
+            </ul>
+        </nav>
+
+        <h1 class="town">Preston, Idaho</h1>
+
+        <div class="sec1">
+            <picture>
+                <source srcset="images/hero-image-900.jpg" media="(min-width: 32.5em) and (max-width:64.99em)">
+                <source srcset="images/hero-image-1024.jpg" media="(min-width: 65em)">
+                <img class="heroimg" src="images/hero-image-475.jpg" alt="responsive hero images">
+            </picture>
+            <div class="weathersummary">
+                <h2>Weather Summary</h2>
+                <table>
+                    <tr>
+                        <td class="tblHead">Condition:</td>
+                        <td class="tblData"><span id="curCond">Raining</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tblHead">Currently:</td>
+                        <td class="tblData"><span id="curTemp">50</span>°</td>
+                    </tr>
+                    <tr>
+                        <td class="tblHead">Humidity:</td>
+                        <td class="tblData"><span>95</span>%</td>
+                    </tr>
+                    <tr>
+                        <td class="tblHead">Wind:</td>
+                        <td class="tblData"><span id="windSpeed">12</span> mph</td>
+                    </tr>
+                    <tr>
+                        <td class="tblHead">Wind Chill:</td>
+                        <td class="tblData"><span id="windChill"></span>°</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="sec2 forecast-container">
+            <h2>5-day Forcast</h2>
+            <div class="forecast">
+                <div class="col1">
+                    <p><span id="forecast1"></span></p>
+                    <img class="forecasticon" id="day1icon" src="images/icon-sun.png" alt="forecast day1 weather icon">
+                    <p><span id="day1High">32</span>°</p>
+                    <p><span id="day1Low">21</span>°</p>
+                </div>
+                <div class="col2">
+                    <p><span id="forecast2"></span></p>
+                    <img class="forecasticon" id="day2icon" src="images/icon-sun.png" alt="forecast day2 weather icon">
+                    <p><span id="day2High">20</span>°</p>
+                    <p><span id="day2Low">15</span>°</p>
+                </div>
+                <div class="col3">
+                    <p><span id="forecast3"></span></p>
+                    <img class="forecasticon" id="day3icon" src="images/icon-partcloudy.png" alt="forecast day3 weather icon">
+                    <p><span id="day3High">15</span>°</p>
+                    <p><span id="day3Low">-5</span>°</p>
+                </div>
+                <div class="col4">
+                    <p><span id="forecast4"></span></p>
+                    <img class="forecasticon" id="day4icon" src="images/icon-cloudy.png" alt="forecast day4 weather icon">
+                    <p><span id="day4High">20</span>°</p>
+                    <p><span id="day4Low">0</span>°</p>
+                </div>
+                <div class="col5">
+                    <p><span id="forecast5"></span></p>
+                    <img class="forecasticon" id="day5icon" src="images/icon-snowing.png" alt="forecast day5 weather icon">
+                    <p><span id="day5High">28</span>°</p>
+                    <p><span id="day5Low">15</span>°</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec3">
+            <picture>
+                <img class="article-photo" src="images/jambalaya-240x172.jpg" alt="picture of a dutch oven full of jambalaya">              
+            </picture>
+            <h2>Quarterly DOG Party</h2>
+            <div class="article">
+                <p>This month, the 49ers Packing Iron Dutch Oven group hosted their quartlery Dutch Oven Gathering (DOG) party.
+                  15 members attended this event where they prepared, cooked, and shared their dutch oven skills with each other.
+                  Even though the temperature outside was below zero, there was no shortage of fun being had.</p>
+                <p>As usual, there was a ton of wonderful food at the end of the day.  Stews, cassaroles, pasta, and of course 
+                    jambalaya.  We of course can't forget to mention Brian's amazing dutch oven rolls.
+                </p>
+                <p>To top it all off there were amazing deserts.  Cobbler, cake, pie, and my favorite strawberry cheesecake.</p>
+                <p>These events are always open to everybody that loves cooking in their cast iron or is interested in learning
+                    how to cook.  We have people with no experience cooking right next to our state champions who have also competed
+                    at the IDOS national cookoff in Sandy, UT.  Come join us at our next DOG!
+                </p>
+            </div>
+        </div>
+
+        <div class="sec4 preston-contact">
+            <h2>Contact Informtion</h2>
+            <div class="address">
+                <img class="prestonmap" src="images/Preston-map.png" alt="road map of preston idaho">
+                <div>
+                    <p>The Weather Site</p>
+                    <p><span><i class="fa fa-map-marker"></i></span> 30 N 1st E</p>
+                    <p>Preston, ID 83263</p>
+                    <p><span><i class="fa fa-phone"></i></span> 208-555-5555</p>
+                    <p><span><i class="fa fa-envelope-o"></i></span> theweathersite@tws.com</p>
+                </div>
+            </div>
+        </div> 
+
+    </main>
+     <footer>
+        <p>&copy; <span id="copyrite"></span> | Cary Taylor | Alaska | <a id="termsofuse" href="#">Terms of Use</a></p>
+        <p><span id="todaydate"></span></p>
+    </footer>
+    <script src="js/menutoggle.js"></script>
+    <script src="js/myscript.js"></script> 
+    <script src="js/windchill.js"></script>
+</body>
+</html>

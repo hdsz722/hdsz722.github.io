@@ -1,0 +1,53 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'large' media query section */
+@media only screen and (min-width: 65em){
+    .weather-header {
+        height: auto; 
+    }
+
+    .weather-header h1 {
+        font-size: 1.7rem;
+    }
+
+    .weather-header div p {
+        font-size: 1.5rem;
+    }
+      
+    .design-doc-menu li:first-child {
+    display:none;
+    }
+
+    .design-doc-menu li {
+        display:flex;
+        font-size: 1rem;
+        justify-content: space-around;
+    }
+
+    .gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+            
+    .lazyLoadImages {
+        max-width: 450px;
+        transition: box-shadow 3ms;
+    }    
+
+    .lazyLoadImages:hover {
+        box-shadow: 0 0 20px 10px rgba(0,0,0,.5);
+    }
+        
+       .prestonmap {
+        width:60%;
+    }
+
+    .address div p {
+        margin: auto;
+        font-size: 1.2rem;
+    }
+    
+    .address div {
+        font-size: larger;
+    }
+
+}

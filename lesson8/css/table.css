@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+}
+
+table {
+    width: 40%;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rbga(0,0,0,.5);
+}
+
+table, th, td, tr {
+    border: 3px solid #adadad;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+tr:nth-child(even) {
+    background-color:#e7ffed ;
+}
+
+tr:nth-child(odd) {
+    background-color:#e7f0ed ;
+}
+
+tr:first-child, tr:last-child {
+    background-color:#7fb9c2;
+}
+
+tr:nth-child(2) {
+    background-color: #628ca6;
+    color:white;
+}
+.goalMet {
+    background-color: #628ca6;
+    color:white;
+}
