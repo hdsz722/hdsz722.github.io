@@ -29,7 +29,7 @@
    document.getElementById("forecast3").textContent = oForeDateThree;
    document.getElementById("forecast4").textContent = oForeDateFour;
    document.getElementById("forecast5").textContent = oForeDateFive;
-   document.getElementById("copyrite").textContent = oYear;
+   document.getElementById("copywrite").textContent = oYear;
 
    switch (d.getDay()) {
       case 0:
@@ -44,6 +44,3 @@
          document.getElementById("bannermessage").style.display = "block";
          break;
    }
-
-   let oLastModif = new Date(document.lastModified);
-   document.getElementById("lastupdated").textContent = oLastModif;
