@@ -29,7 +29,7 @@ tr:nth-child(odd) {
     background-color:#e7f0ed ;
 }
 
-tr:first-child, tr:last-child {
+.thead,  .tfoot {
     background-color:#7fb9c2;
 }
 
