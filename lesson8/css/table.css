@@ -7,7 +7,6 @@ body {
 table {
     width: 40%;
     margin: 20px auto;
-    box-shadow: 0 0 20px rbga(0,0,0,.5);
 }
 
 table, th, td, tr {
@@ -34,15 +33,19 @@ tr.tbody:nth-child(odd) {
     background-color:#e7f0ed ;
 }
 
-.thead,  .tfoot {
+.thead, .tfoot {
     background-color:#7fb9c2;
 }
 
 .tfoot {
-    font-size:small;
+    font-size:1rem;
 }
 
 .goalMet {
     background-color: #628ca6;
     color:white;
+}
+
+.table-container {
+    box-shadow: 15px 15px 15px rgba(0,0,0,.2);
 }
