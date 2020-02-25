@@ -20,28 +20,28 @@ th, td {
     font-weight: 700;
 }
 
-tr:nth-child(2) {
+thead tr:nth-child(2) {
     background-color: #628ca6;
     color:white;
 }
 
-tr.tbody:nth-child(even) {
+tbody tr:nth-child(even) {
     background-color:#e7ffed ;
 }
 
-tr.tbody:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background-color:#e7f0ed ;
 }
 
-.thead, .tfoot {
+thead, tfoot {
     background-color:#7fb9c2;
 }
 
-.tfoot {
+tfoot {
     font-size:1rem;
 }
 
-.goalMet {
+tbody .goalMet {
     background-color: #628ca6;
     color:white;
 }
