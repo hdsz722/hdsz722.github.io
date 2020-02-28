@@ -12,6 +12,7 @@ body {
   background-color: yellow;
 }
 
+/*----------- HEADERs --------------*/
 .weather-header {
   display:flex;
   height: auto;
@@ -44,6 +45,7 @@ body {
   font-size: .9rem;
 }
 
+/*----------- NAVIGATION --------------*/
 nav {
   background-color: #a2cae5;
   font-size:.9rem;
@@ -87,6 +89,7 @@ nav {
   color:white;
 }
 
+/*----------- MAIN --------------*/
 main h1 {
   max-width: 100%;
   margin: 1rem auto;
@@ -120,6 +123,7 @@ h1, h2, h3 {
   padding:0;
 }
 
+/*----------- WEATHER SECTIONS --------------*/
 .heroimg {
   width:100%;
   height:auto;
@@ -145,6 +149,7 @@ h1, h2, h3 {
   text-decoration: underline;
   margin-bottom: .5rem;
 }
+
 
 table {
   width: 100%;
@@ -176,6 +181,7 @@ table .tblData {
   margin-top: 1rem;
 }
 
+/*----------- CONTACT INOFRMATION --------------*/
 .prestonmap {
   display:none;
 }
@@ -185,6 +191,7 @@ table .tblData {
   text-align: left;
 }
 
+/*----------- PHOTO GALLERY --------------*/
 .gallery-container {
   display:grid;
   grid-template-columns: 1fr;
@@ -212,6 +219,29 @@ table .tblData {
     transition: filter .5s;
 }
 
+/*----------- STORM CENTER FORM--------------*/
+fieldset {
+  padding: 10px;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+form legend {
+  text-align: left;
+  margin: 0 1rem;
+  padding:0 .4rem;
+
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  font-size: .8rem;
+
+}
+
+
+/*----------- FOOTER SECTIONS --------------*/
 footer {
   display: grid;
   text-align: center;

@@ -39,12 +39,12 @@
         <form class="sec1" method="get" action="thanks.html">
             <fieldset>
                 <legend>Weather Observeration</legend>
-                <label>Full Name* <input type="text" name="fname" required pattern="A-Za-z" minlength="5"></label>
-                <label>Email* <input type="email" required placeholder="email@gmail.com"></label>
-                <label>Phone Number* <input type="tel"></label>
-                <label>Zip Code* <input type="text" minlength="5"></label>
-                <label>Storm Date <input type="date"></label>
-                <label>Storm Type 
+                <label class="top">Full Name* <input type="text" name="fname" required pattern="A-Za-z" minlength="5"></label>
+                <label class="top">Email* <input type="email" required placeholder="email@gmail.com"></label>
+                <label class="top">Phone Number* <input type="tel"></label>
+                <label class="top">Zip Code* <input type="text" minlength="5"></label>
+                <label class="top">Storm Date <input type="date"></label>
+                <label class="top">Storm Type 
                     <select name="storm">
                         <option value="">Please select...</option>
                         <option value="flood">Flash Flood</option>"
@@ -56,7 +56,7 @@
                         <option value="wind">wind</option>"
                         <option value="winter">Winter Weather</option>"
                     </select>
-                </label>
+                </label class="top">
                 <label for="severityRange">Storm Severity &nbsp;
                     <input type="range" id="severityRange" value="5" min="1" max="10" step="1" list="tickmarks" 
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> &nbsp;
@@ -77,7 +77,7 @@
                     <option value="10">
                 </datalist>
                 
-                <label>Storm Region 
+                <label class="top">Storm Region 
                     <select name="region">
                         <option value="">Select Region...</option>
                         <option value="preston">Preston</option>
@@ -87,16 +87,16 @@
                 </label>
 
                 <div>User in Danger 
-                    <label><input type="radio" name="danger" value="yes">yes</label>
-                    <label><input type="radio" name="danger" value="yes">maybe</label>
-                    <label><input type="radio" name="danger" value="yes">no</label>
+                    <label class="sbs"><input type="radio" name="danger" value="yes">yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="yes">maybe</label>
+                    <label class="sbs"><input type="radio" name="danger" value="yes">no</label>
                 </div>
 
-                <label for="hazard-comment">Additional Information</label>
+                <label  class="top" for="hazard-comment">Additional Information</label>
                 <textarea id="hazard-comment" rows="4" cols="20"></textarea>
             </fieldset>
-            <button type="submit">Report Hazard</button>
-        </form> 
+            <button type="submit" class="submit">Report Hazard</button>
+        </form>  
 
     </main>
 
