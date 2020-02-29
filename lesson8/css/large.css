@@ -36,8 +36,12 @@
     .lazyLoadImages:hover {
         box-shadow: 0 0 20px 10px rgba(0,0,0,.5);
     }
+
+    form lable.sbs {
+        padding: .4rem 0;
+    }    
         
-       .prestonmap {
+    .prestonmap {
         width:60%;
     }
 

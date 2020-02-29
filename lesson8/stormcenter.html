@@ -57,10 +57,10 @@
                         <option value="winter">Winter Weather</option>"
                     </select>
                 </label class="top">
-                <label for="severityRange">Storm Severity &nbsp;
+                <label for="severityRange" class="top">Storm Severity &nbsp; <span id="severity">5</span> 
                     <input type="range" id="severityRange" value="5" min="1" max="10" step="1" list="tickmarks" 
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> &nbsp;
-                        <span id="severity">5</span> 
+                        
                 </label>
 
                 <datalist id="tickmarks">
@@ -93,9 +93,9 @@
                 </div>
 
                 <label  class="top" for="hazard-comment">Additional Information</label>
-                <textarea id="hazard-comment" rows="4" cols="20"></textarea>
+                <textarea id="hazard-comment" rows="4" cols="30"></textarea>
             </fieldset>
-            <button type="submit" class="submit">Report Hazard</button>
+            <button type="submit" class="submitBtn">Report Hazard</button>
         </form>  
 
     </main>
