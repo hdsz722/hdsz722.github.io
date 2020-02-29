@@ -224,16 +224,16 @@ table .tblData {
 form.sec1 {
   margin-top: 20px;
   width: 98%;
-  max-width: 23.5rem;
+  max-width: 380px;
   box-sizing: border-box;
 }
 
 fieldset {
   text-align: left;
   padding: 10px;
-  margin: 1rem;
-  width:96%;
-  max-width: 20rem;
+  margin: 10px;
+  min-width: 200px;
+  max-width: 340px;
   border-radius: 10px;
 }
 
@@ -255,9 +255,15 @@ form label.top input, form label.top select {
   display: block;
   font-size: 1rem;
   padding: .4rem;
-  width: 96%;
+  width: 94%;
   margin:0;
-  max-width: 19rem;
+  border-left: #d8d8d8 solid 6px;
+  max-width: 312px;
+}
+
+form label select {
+  margin: 0px;
+  padding:0;
 }
 
 form label.sbs {
@@ -268,18 +274,20 @@ form label.sbs {
 
 form input.slider {
   padding: .5rem 0 0;
-  color: #1481ba;
+  color: black;
+  background-color: lightblue;
   height: 2rem;
+  width: 96%;
 }
 
 form .slider:hover {
   cursor:pointer;
-
+  opacity: 1;
 }
 
 form textarea {
   width: 96%;
-  max-width: 19rem;
+  max-width: 318px;
   height: 6rem;
   resize: none;
   padding: .4rem;
@@ -287,7 +295,6 @@ form textarea {
 
 form label.top input:required {
   border-left: red solid 6px;
-  max-width: 18.6rem;
 }
 
 form label.top input:required:valid {
@@ -302,7 +309,7 @@ form .submitBtn {
   padding: .75rem 1rem;
   margin: 0 0 1.5rem 1%;
   width: 96%;
-  max-width: 18rem;
+  max-width: 324px;
 }
 
 
