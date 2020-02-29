@@ -234,7 +234,6 @@ fieldset {
 }
 
 form legend {
-
   margin: 0 1rem;
   padding:0 .4rem;
 
@@ -262,17 +261,35 @@ form label.sbs {
   margin-left: 1rem;
 }
 
-form input.severityRange {
-  color:black;
+form input.slider {
+  padding: .5rem 0 0;
+  color: #1481ba;
+  height: 2rem;
 }
 
-form textarea.hazard-comment {
-  width: 100%;
+form .slider:hover {
+  cursor:pointer;
+
+}
+
+form textarea {
+  width: 98%;
+  height: 6rem;
+  resize: none;
+  padding: .5rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
 }
 
 form .submitBtn {
   border: none;
-  background-color: #9c2c13;
+  background-color: #1481ba;
   color: white;
   border-radius: 1rem;
   padding: .75rem 1rem;
