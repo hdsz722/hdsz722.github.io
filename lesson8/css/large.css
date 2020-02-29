@@ -2,6 +2,11 @@
 
 /* 'large' media query section */
 @media only screen and (min-width: 65em){
+
+    body {
+        background-image: url("/lesson8/images/icon-snowflakes-150.jpg");
+    }
+
     .weather-header {
         height: auto; 
     }
