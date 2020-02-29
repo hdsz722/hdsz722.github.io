@@ -223,14 +223,16 @@ table .tblData {
 /*----------- STORM CENTER FORM--------------*/
 form.sec1 {
   margin-top: 20px;
-  max-width: 24rem;
+  width: 98%;
+  max-width: 23.5rem;
+  box-sizing: border-box;
 }
 
 fieldset {
   text-align: left;
   padding: 10px;
   margin: 1rem;
-  width:98%;
+  width:96%;
   max-width: 20rem;
   border-radius: 10px;
 }
@@ -253,7 +255,8 @@ form label.top input, form label.top select {
   display: block;
   font-size: 1rem;
   padding: .4rem;
-  width: 98%;
+  width: 96%;
+  margin:0;
   max-width: 19rem;
 }
 
