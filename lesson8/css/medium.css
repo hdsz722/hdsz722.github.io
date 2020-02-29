@@ -43,6 +43,16 @@
         flex-wrap: nowrap;
     }
 
+    .design-doc-menu li:first-child {
+        display:none;
+    }
+
+    .design-doc-menu li {
+        display:flex;
+        font-size: .8rem;
+        justify-content: space-around;
+    }
+
     .responsive li {
         display:flex;
     }
