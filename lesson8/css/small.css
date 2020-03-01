@@ -293,6 +293,10 @@ form textarea {
   padding: .4rem;
 }
 
+form label.top span {
+  font-weight: bolder;
+}
+
 form label.top input:required {
   border-left: red solid 6px;
 }
@@ -310,6 +314,18 @@ form .submitBtn {
   margin: 0 0 1.5rem 1%;
   width: 96%;
   max-width: 324px;
+}
+
+div.thank-you {
+  position: relative;
+  width: 85%;
+  max-width: 380px;
+  height: 200px;
+  padding: 20px;
+  border: solid 1px black;
+  margin: 40px auto;
+  background-color: #d8d8d8;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,.5);
 }
 
 

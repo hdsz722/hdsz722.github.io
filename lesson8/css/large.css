@@ -54,4 +54,8 @@
         font-size: larger;
     }
 
+    footer p, #todaydate {
+        font-size: .9rem;
+        margin: .7rem;
+    }
 }

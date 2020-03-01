@@ -2,9 +2,9 @@
 <html lang="en-us">
 
 <head>
-    <title>Weather Photo Gallery | Arctic Blast</title>
+    <title>Storm Center Report | Arctic Blast</title>
     <meta charset="utf-8">
-    <meta name="description" content="This is the weather photo gallery.">
+    <meta name="description" content="This is the weather event reporting portal.">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
     <link rel="stylesheet" href="../css/normalize.css">
@@ -40,9 +40,11 @@
             <fieldset>
                 <legend>Weather Observation</legend>
                 <label class="top">Full Name* <input type="text" name="fullName" required 
-                    pattern="A-Za-z" minlength="5" placeholder="first last"></label>
-                <label class="top">Email <input type="email" placeholder="email@gmail.com"></label>
-                <label class="top">Phone Number* <input type="tel" required></label>
+                    pattern="^(\w\w+)\s(\w\w+)$" placeholder="first last"></label>
+                <label class="top">Email <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    placeholder="email@gmail.com"></label>
+                <label class="top">Phone Number* <input type="tel" required 
+                    pattern="[0-9]{7}|[0-9]{10}|[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
                 <label class="top">Zip Code* <input type="text" minlength="5" required></label>
                 <label class="top">Storm Date <input type="date"></label>
                 <label class="top">Storm Type 
@@ -101,11 +103,11 @@
     </main>
 
     <footer>
-        <p>&copy; <span id="copyrite"></span> | <span><a href="../">Cary Taylor</a></span> | Alaska | <a id="termsofuse" href="#">Terms of Use</a></p>
+        <p>&copy; <span id="copywrite"></span> | <span><a href="../">Cary Taylor</a></span> | Alaska | <a id="termsofuse" href="#">Terms of Use</a></p>
         <p><span id="todaydate"></span></p>
     </footer>
     <script src="js/menutoggle.js"></script>
-    <script src="js/myscript.js"></script>
     <script src="js/stormrating.js"></script>
+    <script src="js/todaydate.js"></script>
 </body>
 </html>

@@ -156,10 +156,25 @@
         margin:0;
     }
 
+    main {
+        margin-bottom: 50px;
+    }
+
+    div.thank-you {
+        margin: 80px auto;
+      }      
+
     footer {
         font-size: 1rem;
-/*        width: 92vw;
-        max-width: 1024px;*/
+        position: fixed;
+        width: 100%;
+        left:0;
+        bottom:0;
         margin: .5rem auto 0em;
+    }
+
+    footer p, #todaydate {
+        font-size: .8rem;
+        margin: .7rem;
     }
 }
