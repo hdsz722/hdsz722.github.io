@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Storm Center Report | Arctic Blast</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the weather event reporting portal.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header class="weather-header">
+        <img class="logo" src="../images/arctic-blast-logo.png" alt="arctic blast logo">
+        <div class="header-text">
+            <h1>The Arctic Blast</h1>
+            <p>A Forecast you can count on!</p>
+        </div>
+   </header>
+
+    <main>
+        <nav>
+            <ul class="design-doc-menu">
+                <li> <a class="ham" href="#">&#9776; Menu</a></li>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="preston-7.html">Preston</a></li>
+                <li> <a href="#">Soda Springs</a></li>
+                <li> <a href="#">Fish Haven</a></li>
+                <li> <a class="active-link" href="#">Storm Center</a></li>                
+                <li> <a href="gallery-7.html">Gallery</a></li>            
+            </ul>
+        </nav>
+
+        <form class="sec1 form-container" method="get" action="thanks.html">
+            <fieldset>
+                <legend>Weather Observation</legend>
+                <label class="top">Full Name* <input type="text" name="fullName" required 
+                    pattern="^(\w\w+)\s(\w\w+)$" placeholder="first last"></label>
+                <label class="top">Email <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    placeholder="email@gmail.com"></label>
+                <label class="top">Phone Number* <input type="tel" required 
+                    pattern="[0-9]{7}|[0-9]{10}|[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+                <label class="top">Zip Code* <input type="text" minlength="5" required></label>
+                <label class="top">Storm Date <input type="date"></label>
+                <label class="top">Storm Type 
+                    <select name="storm">
+                        <option value="">Please select...</option>
+                        <option value="flood">Flash Flood</option>
+                        <option value="hail">Hail</option>
+                        <option value="hurricane">Hurricane</option>
+                        <option value="lightning">Lightning</option>
+                        <option value="thunderstorm">Thunderstorm</option>
+                        <option value="tornado">Tornado</option>
+                        <option value="wind">wind</option>
+                        <option value="winter">Winter Weather</option>
+                    </select>
+                </label>
+                <label for="severityRange" class="top">Storm Severity &nbsp; <span id="severity">5</span> 
+                    <input type="range" class="slider" id="severityRange" value="5" min="1" max="10" step="1" list="tickmarks" 
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        
+                </label>
+
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                
+                <label class="top">Storm Region 
+                    <select name="region">
+                        <option value="">Select Region...</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda-springs">Soda Springs</option>
+                        <option value="fish-haven">Fish Haven</option>
+                    </select>
+                </label>
+
+                <div>User in Danger 
+                    <label class="sbs"><input type="radio" name="danger" value="yes">yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="yes">maybe</label>
+                    <label class="sbs"><input type="radio" name="danger" value="yes">no</label>
+                </div>
+
+                <label  class="top" for="hazard-comment">Additional Information</label>
+                <textarea id="hazard-comment" placeholder="Describe event..."></textarea>
+            </fieldset>
+            <button type="submit" class="submitBtn">Report Hazard</button>          
+        </form>  
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copywrite"></span> | <span><a href="../">Cary Taylor</a></span> | Alaska | <a id="termsofuse" href="#">Terms of Use</a></p>
+        <p><span id="todaydate"></span></p>
+    </footer>
+    <script src="js/menutoggle.js"></script>
+    <script src="js/stormrating.js"></script>
+    <script src="js/todaydate.js"></script>
+</body>
+</html>
