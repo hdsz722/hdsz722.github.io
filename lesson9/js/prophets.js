@@ -11,7 +11,7 @@ fetch(requestURL)
         for (let i=0; i <prophets.length; i++) {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-            let 
+
         
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
         
