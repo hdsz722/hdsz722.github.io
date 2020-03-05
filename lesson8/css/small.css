@@ -15,6 +15,7 @@ body {
 
 /*----------- HEADERs --------------*/
 .weather-header {
+  position: relative;
   display:flex;
   height: auto;
   flex-direction:row;
@@ -48,6 +49,7 @@ body {
 
 /*----------- NAVIGATION --------------*/
 nav {
+  position: relative;
   background-color: #a2cae5;
   font-size:.9rem;
 }
@@ -91,6 +93,11 @@ nav {
 }
 
 /*----------- MAIN --------------*/
+
+main {
+  position: relative;
+  z-index: -1;
+}
 main h1 {
   max-width: 100%;
   margin: 1rem auto;
@@ -98,6 +105,7 @@ main h1 {
 
 main {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr;
   text-align: center;
   margin: 0 auto;
@@ -108,6 +116,7 @@ h1, h2, h3 {
 }
 
 .sec1, .sec2, .sec3, .sec4 {
+  position: relative;
   width:95%;
   border-style: solid;
   border-width: 1px;
@@ -126,6 +135,7 @@ h1, h2, h3 {
 
 /*----------- WEATHER SECTIONS --------------*/
 .heroimg {
+  position: relative;
   width:100%;
   height:auto;
 }
