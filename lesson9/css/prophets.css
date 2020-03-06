@@ -21,7 +21,11 @@ h1 {
     padding: 2rem;
     background-color: #880202;
     text-align: center;
-    box-shadow: 0 0 10px 5px #3a3a3a98;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #6b6b6b;
+    border-top: 2px solid #6b6b6b;
+    box-shadow: 0 0 15px 5px #313131a9;
 }
 
 .cards section img{
@@ -41,4 +45,11 @@ h1 {
 }
 .cards section p {
     margin: .25rem 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    font-weight: bold;
 }
