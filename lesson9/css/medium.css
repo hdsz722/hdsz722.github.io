@@ -77,11 +77,6 @@
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    grid-template-columns: repeat (autofit, minmax(300px, 1fr));
-  }
-
-  .cards {
-    
   }
 
   .cards section {
@@ -117,7 +112,7 @@
 
   .maps {
     display: grid;
-    max-width: 1024;
+    max-width: 1024px;
     width: 95%;
     height: auto;
     margin: 0 auto 1rem;

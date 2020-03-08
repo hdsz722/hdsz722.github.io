@@ -23,18 +23,6 @@
     .design-doc-menu li {
         font-size: 1rem;
     }
-
-    .cards {
-        display: flex;
-        grid-template-columns: 1fr 1fr 1fr);  
-        grid-template-rows: 1fr; 
-    }
-
-    .cards section {
-        display:grid;
-        grid-template-columns: 1fr;
-        
-    }
  
     .home-container {
         display:grid;
@@ -49,15 +37,14 @@
         padding: 1rem;
     }
 
-    .cards sections {
-        
+    .cards {
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;  
+        grid-template-rows: 1fr; 
     }
 
-    .home-container .region {
-        grid-row-start: 1;
-        grid-column: 1/ span 2;
-        margin-right: 0;
-        margin-top: 0;
+    .cards section {
+        grid-template-columns: 1fr;
     }
     
     .cards section img {
@@ -71,6 +58,13 @@
 
     .gallery-container {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .home-container .region {
+        grid-row-start: 1;
+        grid-column: 1/ span 2;
+        margin-right: 0;
+        margin-top: 0;
     }
             
     .lazyLoadImages {
