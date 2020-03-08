@@ -94,6 +94,7 @@
       height: 100%;
       
   }
+
   .region {
     margin: 0 1.5rem;
   }
@@ -109,13 +110,22 @@
     padding: .5rem;
     background-color: white;
   }
+  .home-container .region .maps {
+    grid-row-start: 3;
+    grid-column: 2/ span 4;
+    margin: 0 0 1rem 0;
+  }
 
   .maps {
+      display: grid;
+  }
+  
+  .maps img {
     display: grid;
     max-width: 1024px;
-    width: 95%;
+    width: 93.5%;
     height: auto;
-    margin: 0 auto 1rem;
+    margin: 0 2rem 1rem;
     border: 1px solid black;
     box-shadow: 0 0 15px #313131a9;
   }
