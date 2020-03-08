@@ -149,6 +149,22 @@ h1, h2, h3 {
   border-radius: 5px;
 }
 
+.cards h2 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+.card-title {
+  margin: 1rem 0 0 0;
+}
+
+.card-motto {
+  font-style: italic;
+}
+.card-text, .card-motto {
+  margin: 0 0 1-rem 0;
+}
+
 .cards section img{
   width:100%;
   height: auto;
@@ -170,6 +186,10 @@ h1, h2, h3 {
   margin:0;
   padding: .5rem;
   background-color: white;
+}
+
+.maps {
+  display: none;
 }
 /*----------- WEATHER SECTIONS --------------*/
 .heroimg {

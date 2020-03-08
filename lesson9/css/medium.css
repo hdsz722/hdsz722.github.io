@@ -73,10 +73,10 @@
 /*---------- HOME PAGE SECTIONS -------------*/
 
 .home-container {
+    margin-top: 1rem;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: #1480ba75;
     grid-template-columns: repeat (autofit, minmax(300px, 1fr));
   }
 
@@ -108,6 +108,15 @@
     background-color: white;
   }
 
+  .maps {
+    display: grid;
+    max-width: 1024;
+    width: 95%;
+    height: auto;
+    margin: 1rem auto;
+    border: 1px solid black;
+    box-shadow: 0 0 15px #313131a9;
+  }
 /*----------- WEATHER SECTIONS --------------*/
     .weathersummary table {
         font-size: 1rem;
