@@ -24,6 +24,51 @@
         font-size: 1rem;
     }
 
+    .cards {
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr);  
+        grid-template-rows: 1fr; 
+    }
+
+    .cards section {
+        display:grid;
+        grid-template-columns: 1fr;
+        
+    }
+ 
+    .home-container {
+        display:grid;
+        grid-template-columns: auto 1fr 1fr 1fr;
+/*        grid-template-rows: 1fr 1fr; */
+    }
+
+    .home-container .cards {
+        grid-row-start: 1;
+        grid-column: 3/ span 4;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .cards sections {
+        
+    }
+
+    .home-container .region {
+        grid-row-start: 1;
+        grid-column: 1/ span 2;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    
+    .cards section img {
+        grid-row: 6;
+        height: auto; 
+    }
+
+    .cards section:nth-child(even) img {
+        grid-column:1;
+    }
+
     .gallery-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
