@@ -70,7 +70,45 @@
     .sec1, .sec2, .sec3, .sec4 {
         max-width: 1024px;   
     }
+/*---------- HOME PAGE SECTIONS -------------*/
 
+.home-container {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #1480ba75;
+    grid-template-columns: repeat (autofit, minmax(300px, 1fr));
+  }
+
+  .cards {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem 0;
+    margin: 0 1.5rem;
+    background-color: #1480ba;
+  }
+
+  .cards section {
+    grid-auto-flow;
+  }
+
+  .region {
+    margin: 0 1.5rem;
+  }
+  
+  .region-forecast, .region-alerts {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #d8d8d8;
+  }
+  
+  .region-forecast p, .region-alerts p {
+    margin:0;
+    padding: .5rem;
+    background-color: white;
+  }
+
+/*----------- WEATHER SECTIONS --------------*/
     .weathersummary table {
         font-size: 1rem;
     }    
