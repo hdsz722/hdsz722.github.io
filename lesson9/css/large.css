@@ -69,8 +69,8 @@
         grid-column: 3/span 2;
     }
     .maps img {
-        width: 95.5%;
-        margin-left: 1rem;
+        width: 92.5%;
+        margin: 0 2rem 1rem;
     }
            
    .gallery-container {
