@@ -123,11 +123,20 @@
   .maps img {
     display: grid;
     max-width: 1024px;
-    width: 93.5%;
+    width: 90%;
     height: auto;
-    margin: 0 2rem 1rem;
-    border: 1px solid black;
+    margin: 0 2rem .5rem;
+    border: .5px solid #1481ba;
     box-shadow: 0 0 15px #313131a9;
+  }
+
+  .maps button {
+      margin: 0 auto 1rem;
+      width: 250px;
+      padding: .7rem;
+      background-color: #1481ba;
+      color: white;
+      border-radius: 10px;
   }
 /*----------- WEATHER SECTIONS --------------*/
     .weathersummary table {

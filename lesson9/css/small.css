@@ -138,13 +138,12 @@ h1, h2, h3 {
   grid-gap: 1rem;
   padding: 1rem 0;
   margin: 0 1.5rem;
-  background-color: #1480ba;
 }
 
 .cards section {
   margin: 0 auto;
-  background-color: white;
-  border: 1px solid #000000;
+  background-color: #a2cae5;
+  border: .5px solid #1481ba;
   box-shadow: 0 0 15px #313131a9;
   border-radius: 5px;
 }
@@ -180,6 +179,8 @@ h1, h2, h3 {
   padding: 1rem;
   margin: 1rem 0;
   background-color: #d8d8d8;
+  border: .5px solid #1481ba;
+  box-shadow: 0 0 15px #313131a9;
 }
 
 .region-forecast p, .region-alerts p {
