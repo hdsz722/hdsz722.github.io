@@ -1,0 +1,254 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'medium' media query section */
+@media only screen and (min-width: 32.5em){
+
+    body {
+        background-image: url("/lesson8/images/icon-snowflakes-100.jpg");
+    }
+
+    .weather-header {
+       background-image: linear-gradient(to right, #011627, #a2cae5);
+    }
+    
+    .weather-header h1 {
+        font-size:1.5rem; 
+    }
+
+    .logo {
+        height: 90%;
+        width:auto;
+    }
+
+    .header-text {
+        padding-top: 1rem;
+        width:350px;
+      }
+      
+      .logo {
+        padding-top: 0;
+      }
+    main h1 {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .weather-header div p {
+        font-size:1.3rem; 
+    }
+    .ham {
+        display: none;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .design-doc-menu {
+        margin: 0em;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    .design-doc-menu li:first-child {
+        display:none;
+    }
+
+    .design-doc-menu li {
+        display:flex;
+        font-size: .8rem;
+        justify-content: space-around;
+    }
+
+    .responsive li {
+        display:flex;
+    }
+
+    .sec1, .sec2, .sec3, .sec4 {
+        max-width: 1024px;   
+    }
+/*---------- HOME PAGE SECTIONS -------------*/
+
+.home-container {
+    margin-top: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .cards section {
+    display:grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns:1fr 1fr;
+  }
+
+  .cards section:nth-child(even) img {
+    grid-column:2;
+  }
+
+  .cards section img {
+      grid-row: 1/span 5;
+      height: 100%;
+      
+  }
+
+  .region {
+    margin: 0 1.5rem;
+  }
+  
+  .region-forecast, .region-alerts {
+    padding: 0 1rem 1rem;
+    margin: 1rem 0;
+    background-color: #d8d8d8;
+  }
+  
+  .region-forecast p, .region-alerts p {
+    margin:0;
+    padding: .5rem;
+    background-color: white;
+  }
+  .home-container .region .maps {
+    grid-row-start: 3;
+    grid-column: 2/ span 4;
+    margin: 0 0 1rem 0;
+  }
+
+  .maps {
+      display: grid;
+  }
+  
+  .maps img {
+    display: grid;
+    max-width: 1024px;
+    width: 90%;
+    height: auto;
+    margin: 0 2rem .5rem;
+    border: .5px solid #1481ba;
+    box-shadow: 0 0 15px #313131a9;
+  }
+
+  .maps button {
+      margin: 0 auto 1rem;
+      width: 250px;
+      padding: .7rem;
+      background-color: #1481ba;
+      color: white;
+      border-radius: 10px;
+  }
+/*----------- WEATHER SECTIONS --------------*/
+    .weathersummary table {
+        font-size: 1rem;
+    }    
+    
+    .forecast-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+
+    .forecast{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #a2cae5;
+        max-width:900px;
+        width:90%;
+        margin: 0 auto;
+        padding: .7rem .5rem;
+    }
+
+    .forecasticon {
+        max-width: 100px;
+        height: auto;
+        width: 5rem;
+        box-shadow: 0 0 5px #011627;
+    }
+
+    .forecast div p{
+        margin: .1rem auto;
+    }
+
+    .article {
+        text-align: left;
+    }
+
+    .sec4 {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .article-photo {
+        width: 30%;
+        min-width: 200px;
+        height:auto;
+        float: right;
+        margin: 4rem 1rem 1rem;
+        box-shadow: 0 0 5px #011627;
+    }
+
+    .gallery-container {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px 20px;
+        margin: 20px auto;
+        padding:20px;
+    }
+
+    .lazyLoadImages {
+    max-width: 350px;
+    }    
+    
+    .preston-contact {
+        display: block;
+    }
+      
+    .prestonmap {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 1rem;
+        box-shadow: 0 0 5px #011627;
+    }
+
+    .address {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-left:1rem;
+    }
+
+    .address div {
+        margin:auto;
+    }
+
+    .address div p {
+        padding: .2rem;
+        font-size: 1rem;
+        margin:0;
+    }
+
+    main {
+        margin-bottom: 50px;
+    }
+
+    div.thank-you {
+        margin: 80px auto;
+      }      
+
+    footer {
+        font-size: 1rem;
+        position: fixed;
+        width: 100%;
+        left:0;
+        bottom:0;
+        margin: .5rem auto 0em;
+    }
+
+    footer p, #todaydate {
+        font-size: .8rem;
+        margin: .7rem;
+    }
+}

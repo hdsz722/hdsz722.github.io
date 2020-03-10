@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Southeast Idaho Weather | Arctic Blast</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the home page for the Arctic Blast Weather site.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header class="weather-header">
+        <img class="logo" src="../images/arctic-blast-logo.png" alt="arctic blast logo">
+        <div class="header-text">
+            <h1>The Arctic Blast</h1>
+            <p>A Forecast you can count on!</p>
+        </div>
+    </header>
+
+    <main>
+        <nav>
+            <ul class="design-doc-menu">
+                <li> <a class="ham" href="#">&#9776; Menu</a></li>
+                <li> <a class="active-link" href="/lesson9/">Home</a></li>
+                <li> <a href="preston-7.html">Preston</a></li>
+                <li> <a href="#">Soda Springs</a></li>
+                <li> <a href="#">Fish Haven</a></li>
+                <li> <a href="stormcenter.html">Storm Center</a></li>                
+                <li> <a href="gallery-7.html">Gallery</a></li>            
+            </ul>
+        </nav>
+        
+        <div class="home-container">
+            <div class="cards"></div>
+            <div class="region">
+                <div class="region-forecast">
+                    <h2>Weather Warnings - Southeast Idaho</h2>
+                    <p class="forecast-item">High Wind Warning - High winds are expected throughout the evening across 
+                        much of Southeast Idaho.
+                    </p>
+                    <p class="forecast-item">Icy Roads - Higher elevations will see icy conditions as rain turns to 
+                        snow after midnight.</p>
+                    <p class="forecast-item">Snow - Precipitation will be turning to snow this evening.  Expect 1-2 inches
+                        by morning.
+                    </p>
+                </div>
+                <div class="region-alerts">
+                    <h2>Critical Alerts - Statewide</h2>
+                    <p class="alert-itme"><span class="road">US 95: Crash...</span>Between County Line Road and Conkling Road (2 miles south of the Worley area). Look out for a crash. A lane is blocked.</p>
+                    <p class="alert-itme"><span class="road">ID 21: Road closed to traffic...</span>Warm Springs Creek Airport Road and The Custer - Boise County Line (23 to 35 miles south of the Stanley area). The road is closed to traffic. There's been an avalanche.</p>
+                </div>
+            </div>
+            <div class="maps">
+                <img  src="images/Gem-Valley-Idaho-511-Travel-Information.png" alt="511 Idaho travel weather information">
+                <button href="https://hb.511.idaho.gov/#roadReports?timeFrame=TODAY&layers=roadReports%2CwinterDriving%2CweatherWarnings%2CotherStates" target="_blank">https://511.idaho.gov</a>
+            </div>
+       </div>
+ff
+
+    </main>
+    <footer>
+        <p>&copy; <span id="copywrite"></span> | <span><a href="../">Cary Taylor</a></span> | Alaska | <a id="termsofuse" href="#">Terms of Use</a></p>
+        <p><span id="todaydate"></span></p>
+    </footer>
+    <script src="js/menutoggle.js"></script>
+    <script src="js/todaydate.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/towndata.js"></script>
+
+</body>
+
+</html>

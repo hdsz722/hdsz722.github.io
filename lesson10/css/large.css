@@ -1,0 +1,110 @@
+/* The small viewport is setup as the defult css - no queries */
+
+/* 'large' media query section */
+@media only screen and (min-width: 65em){
+
+    body {
+        background-image: url("/lesson8/images/icon-snowflakes-150.jpg");
+    }
+
+    .weather-header {
+        height: auto; 
+    }
+
+    .weather-header h1 {
+        font-size: 1.7rem;
+    }
+
+    .weather-header div p {
+        font-size: 1.5rem;
+    }
+      
+
+    .design-doc-menu li {
+        font-size: 1rem;
+    }
+ 
+    .home-container {
+        display:grid;
+        grid-template-columns: auto 1fr 1fr 1fr;
+/*        grid-template-rows: 1fr 1fr; */
+    }
+
+    .home-container .cards {
+        grid-row-start: 1;
+        grid-column: 3/ span 4;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .cards {
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;  
+        grid-template-rows: 1fr; 
+    }
+
+    .cards section {
+        grid-template-columns: 1fr;
+    }
+    
+    .cards section img {
+        grid-row: 6;
+        width:100%;
+        height: auto; 
+    }
+
+    .cards section:nth-child(even) img {
+        grid-column:1;
+    }
+
+   .home-container .region {
+        grid-row-start: 1;
+        grid-column: 1/ span 2;
+        grid-row: 1/span 4;
+        margin-right: 0;
+        margin-top: 0;
+    }
+        
+    .maps {
+        grid-column: 3/span 2;
+    }
+    .maps img {
+        width: 92.5%;
+        margin: 0 2rem 1rem;
+    }
+           
+   .gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .lazyLoadImages {
+        max-width: 450px;
+        transition: box-shadow 3ms;
+    }    
+
+    .lazyLoadImages:hover {
+        box-shadow: 0 0 20px 10px rgba(0,0,0,.5);
+    }
+
+    form lable.sbs {
+        padding: .4rem 0;
+    }    
+        
+    .prestonmap {
+        width:60%;
+    }
+
+    .address div p {
+        margin: auto;
+        font-size: 1.2rem;
+    }
+    
+    .address div {
+        font-size: larger;
+    }
+
+    footer p, #todaydate {
+        font-size: .9rem;
+        margin: .7rem;
+    }
+}
