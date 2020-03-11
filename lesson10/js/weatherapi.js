@@ -23,6 +23,6 @@ fetch(apiURL)
         return response.json();
     })    
     .then ((jsObject) => {
-        console.table(jsonObject); //temporary checking for valid response and data parsingv
+//        console.table(jsonObject); //temporary checking for valid response and data parsingv
         console.log(jsObject);
     });
