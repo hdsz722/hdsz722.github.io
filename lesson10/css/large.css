@@ -91,7 +91,8 @@
     }    
         
     .prestonmap {
-        width:60%;
+        width:600px;
+        height: 450;
     }
 
     .address div p {
