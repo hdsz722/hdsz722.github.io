@@ -192,6 +192,7 @@ h1, h2, h3 {
 .maps {
   display: none;
 }
+
 /*----------- WEATHER SECTIONS --------------*/
 .heroimg {
   width:100%;
@@ -213,12 +214,12 @@ h1, h2, h3 {
   left:10px;
   opacity: 80%;
 }
+
 .weathersummary h2 {
   font-size: 1.1rem;
   text-decoration: underline;
   margin-bottom: .5rem;
 }
-
 
 table {
   width: 100%;

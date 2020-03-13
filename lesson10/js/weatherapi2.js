@@ -16,16 +16,17 @@ switch (townName){
         break;
 }
 
+// Current weather api call
+
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id="+townId+"&units=imperial&APPID="+openWeatherKey
 fetch(apiURL)
     .then ((response)=> response.json())
     .then ((jsObject) => {
-        console.log(jsObject);
+//        console.log(jsObject);
         const currentTemp = jsObject.main.temp;
         const currentHumid = jsObject.main.humidity;
         const currentWind = jsObject.wind.speed;
 
-//        const imagesrc = `https://openweathermap.org/img/wn/`+ jsObject.weather[0].icon +`.png`;
         const desc = jsObject.weather[0].description;
         document.getElementById(`current-cond`).textContent = desc;
         document.getElementById(`current-temp`).textContent = currentTemp;

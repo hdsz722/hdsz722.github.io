@@ -82,7 +82,7 @@
   .cards section {
     display:grid;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:auto auto;
   }
 
   .cards section:nth-child(even) img {
@@ -90,9 +90,9 @@
   }
 
   .cards section img {
-      grid-row: 1/span 5;
+      grid-row: 1/span 5; 
       height: 100%;
-      
+      width:auto;
   }
 
   .region {
@@ -168,6 +168,7 @@
     .forecasticon {
         max-width: 100px;
         height: auto;
+        margin-top: .5rem;
         width: 5rem;
         box-shadow: 0 0 5px #011627;
     }
