@@ -1,7 +1,7 @@
 // calculating windchill
 
-var t = parseFloat(document.getElementById('curTemp').textContent);
-var s = parseFloat(document.getElementById('windSpeed').textContent);
+var t = parseFloat(document.getElementById('current-temp').textContent);
+var s = parseFloat(document.getElementById('wind').textContent);
 var chill = 0;
 
 if (t <= 50) {
@@ -13,4 +13,4 @@ if (t <= 50) {
     chill = "--";
 }
 
-document.getElementById("windChill").textContent = chill;
+document.getElementById("wind-chill").textContent = chill;
