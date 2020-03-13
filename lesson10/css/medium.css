@@ -82,7 +82,7 @@
   .cards section {
     display:grid;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-columns:auto auto;
+    grid-template-columns:1fr 1fr;
   }
 
   .cards section:nth-child(even) img {
@@ -91,8 +91,6 @@
 
   .cards section img {
       grid-row: 1/span 5; 
-      height: 100%;
-      width:auto;
   }
 
   .region {
