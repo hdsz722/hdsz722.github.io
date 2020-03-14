@@ -9,7 +9,7 @@ fetch(apiURL2)
 
         const forecasts = jsObject.list.filter(x => 
             x.dt_txt.includes(`18:00:00`));
-            console.log(forecasts);
+//            console.log(forecasts);
 
         for (let i=0; i<forecasts.length; i++) {
             document.getElementById(`day${i+1}High`).textContent = Math.round(forecasts[i].main.temp,0);

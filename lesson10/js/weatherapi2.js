@@ -26,12 +26,15 @@ fetch(apiURL)
         const currentTemp = jsObject.main.temp;
         const currentHumid = jsObject.main.humidity;
         const currentWind = jsObject.wind.speed;
-
+        var imagesrc = `https://openweathermap.org/img/wn/`+ jsObject.weather[0].icon +`.png`;
         const desc = jsObject.weather[0].description;
+ 
         document.getElementById(`current-cond`).textContent = desc;
         document.getElementById(`current-temp`).textContent = currentTemp;
         document.getElementById(`humidity`).textContent = currentHumid;
         document.getElementById(`wind`).textContent = currentWind;
+        document.getElementById(`icon0`).setAttribute('src',imagesrc);
+        document.getElementById(`icon0`).setAttribute(`alt`, desc);
 
         var chill = 0;
         const t = currentTemp;
