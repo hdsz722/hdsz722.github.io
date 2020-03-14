@@ -148,7 +148,7 @@
     .weathersummary h2 {
         font-size: 1.3rem;
     }
-    
+
     .weathersummary table {
         font-size: 1rem;
     }    
@@ -176,7 +176,7 @@
         height: auto;
         margin-top: .5rem;
         width: 5rem;
-        background-image:radial-gradient(circle, #a2cae5 50%, #1481ba);
+        background-image:radial-gradient(circle, #a2cae5 25%, #1481ba);
         box-shadow: 0 0 10px rgba(0,0,0,.5);
     }
 
