@@ -221,7 +221,7 @@ h1, h2, h3 {
   position: absolute;
   width:50%;
   opacity: .7;
-  top:-25px;
+  top: 14%;
   left:25%;
   z-index: -1;
 }

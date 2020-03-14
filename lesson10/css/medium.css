@@ -152,7 +152,12 @@
     .weathersummary table {
         font-size: 1rem;
     }    
-    
+   
+    .weathersummary img {
+       width: 90%;
+       margin-top: -20px;
+    }
+      
     .forecast-container {
         display:flex;
         flex-direction: column;
