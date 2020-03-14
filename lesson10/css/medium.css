@@ -243,7 +243,7 @@
     }
 
     main {
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
 
     div.thank-you {
@@ -256,7 +256,7 @@
         width: 100%;
         left:0;
         bottom:0;
-        margin: .5rem auto 0em;
+        margin: .7rem auto 0em;
     }
 
     footer p, #todaydate {
