@@ -180,7 +180,7 @@ h1, h2, h3 {
   margin: 1rem 0;
   background-color: #d8d8d8;
   border: .5px solid #1481ba;
-  box-shadow: 0 0 15px #313131a9;
+  box-shadow: 0 0 10px rgba(0,0,0,.5)
 }
 
 .region-forecast p, .region-alerts p {

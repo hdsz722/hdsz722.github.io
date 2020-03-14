@@ -42,7 +42,7 @@ fetch(apiURL)
             } /*   A wind chill value cannot be calculated for wind speeds less that 3mph  */
         } else { 
         /*    A wind chill value cannot be calculated for temperatures above 50°F */
-            chill = "--";
+            chill = "N/A";
         }        
         document.getElementById("wind-chill").textContent = chill;
     });
