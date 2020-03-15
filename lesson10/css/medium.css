@@ -25,9 +25,10 @@
         width:350px;
       }
       
-      .logo {
-        padding-top: 0;
-      }
+    .logo {
+    padding-top: 0;
+    }
+    
     main h1 {
         max-width: 1024px;
         margin: 1rem auto;
@@ -124,14 +125,14 @@
     display: grid;
     max-width: 1024px;
     width: 90%;
-    margin: 0 auto .5rem;
+    margin: 1rem auto;
     border: .5px solid #1481ba;
     box-shadow: 0 0 10px #313131a9;
     align-items: center;
  }
 
   .maps a {
-      margin: 0 auto 1rem;
+      margin: 1rem auto;
       width: 250px;
       padding: .7rem;
       background-color: #1481ba;
