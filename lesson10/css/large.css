@@ -76,6 +76,7 @@
 
     .maps {
         grid-column: 1;
+        grid-gap: .5rem;
         grid-row: 1/span 2;
         grid-template-rows: auto;
         background-color: #a2cae5;
@@ -88,9 +89,9 @@
     }
 
     .maps div a {
-        padding: .2rem auto;
+        padding: .5rem;
         width: 50%;
-        margin: 3rem auto;
+        margin: 1rem auto 3rem;
     }
 
 /* ---------------- PHOTO GALLERY ------------------*/
