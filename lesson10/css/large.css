@@ -28,7 +28,6 @@
 
     .home-container {
         display:grid;
-        grid-gap: space-around;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto auto;
         max-width: 1024px;
