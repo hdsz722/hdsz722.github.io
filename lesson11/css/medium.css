@@ -119,6 +119,7 @@
 
   .maps {
       display: grid;
+      border-radius: 5px;
   }
   
   .maps img, .maps iframe {
@@ -127,6 +128,7 @@
     width: 90%;
     margin: 1rem auto;
     border: .5px solid #1481ba;
+    border-radius: 5px;
     box-shadow: 0 0 10px #313131a9;
     align-items: center;
  }
