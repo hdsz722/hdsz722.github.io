@@ -20,7 +20,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id="+townId+"&un
 fetch(apiURL)
     .then ((response)=> response.json())
     .then ((jsObject) => {
-//        console.table(jsonObject); //temporary checking for valid response and data parsingv
         console.log(jsObject);
         const currentTemp = document.querySelector(`#current-temp`);
         currentTemp.textContent = jsObject.main.temp;

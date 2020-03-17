@@ -3,13 +3,10 @@ const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id="+townId+"&
 fetch(apiURL2)
     .then ((response)=> response.json())
     .then ((jsObject) => {
-        console.log(jsObject);
-
- //       const forecasts = [];
 
         const forecasts = jsObject.list.filter(x => 
             x.dt_txt.includes(`18:00:00`));
-//            console.log(forecasts);
+
 
         for (let i=0; i<forecasts.length; i++) {
             document.getElementById(`day${i+1}High`).textContent = Math.round(forecasts[i].main.temp,0);

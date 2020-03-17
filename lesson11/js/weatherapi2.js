@@ -22,7 +22,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id="+townId+"&un
 fetch(apiURL)
     .then ((response)=> response.json())
     .then ((jsObject) => {
-//        console.log(jsObject);
         const currentTemp = jsObject.main.temp;
         const currentHumid = jsObject.main.humidity;
         const currentWind = jsObject.wind.speed;
