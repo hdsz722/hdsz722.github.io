@@ -136,11 +136,13 @@
   .maps a {
       margin: 1rem auto;
       width: 250px;
-      padding: .7rem;
-      background-color: #1481ba;
+      padding: .6rem 1rem;
+      background-color: #1b4d75;
       color: white;
       border-radius: 10px;
       box-shadow: 0 0 10px #313131a9;
+      text-decoration: none;
+      font-weight: 900;
     }
 /*----------- WEATHER SECTIONS --------------*/
 
