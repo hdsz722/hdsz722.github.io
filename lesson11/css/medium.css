@@ -179,7 +179,11 @@
         width:90%;
         margin: 0 auto;
         padding: .7rem .5rem;
-    }
+        border-bottom: solid 1px white;
+        border-left: solid 1px black;
+        border-top: solid 1px black;
+        border-right: solid 1px white;
+      }
 
     .forecasticon {
         max-width: 100px;

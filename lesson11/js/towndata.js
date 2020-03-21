@@ -8,7 +8,7 @@ fetch(requestURL)
     .then(function(jsonObject) {
         const towns = jsonObject['towns']
 
-        console.log(towns); //temporary checking for valid response and data parsing
+//        console.log(towns); //temporary checking for valid response and data parsing
 
         towns.forEach(town => {
             switch(town.name) {
