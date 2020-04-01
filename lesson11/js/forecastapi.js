@@ -4,6 +4,8 @@ fetch(apiURL2)
     .then ((response)=> response.json())
     .then ((jsObject) => {
 
+        console.log(jsObject);
+        
         const forecasts = jsObject.list.filter(x => 
             x.dt_txt.includes(`18:00:00`));
 
