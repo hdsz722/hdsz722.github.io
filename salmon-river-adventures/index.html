@@ -9,8 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="shortcut icon" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700,900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -21,9 +23,49 @@
             <p>motto</p>
         </div>
     </header>
-
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a>ADVENTURES</a>
+                <ul>
+                    <li><a href="adventure1.html">Adventure 1</a></li>
+                    <li><a href="adventure2.html">Adventure 2</a></li>
+                    <li><a href="adventure3.html">Adventure 3</a></li>
+                </ul>
+            </li>
+            <li><a href="guides.html">RIVER GUIDES</a></li>
+            <li><a href="reservations.html">RESERVATIONS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
     <main>
-
+        <div>
+            <picture>
+                <source srcset="images/banner-900.jpg" media="(min-width: 32.5em) and (max-width:64.99em)">
+                <source srcset="images/banner-1024.jpg" media="(min-width: 65em)">
+                <img class="bannerimg" src="images/banner-480.jpg" alt="responsive whitewater banner images">
+            </picture>
+        </div>
+        <div>
+            <h2>About Us</h2>
+            <p>paragraph</p>
+            <p>paragraph</p>
+            <picture>
+                <source srcset="images/img-river-III-350.jpg" media="(min-width: 65em)">
+                <img src="images/img-river-III-250.jpg" alt="rafting through rapids">
+            </picture>
+        </div>
+        <div>
+            <h2>5-day Area Weather Forecast</h2>
+            <div class="weather-card">
+                <h3 class="forcast-hdr"><span id="day1">Mon 10</span></h3>
+                <img class="forcast-img" id="icon1" src="images/icon-holder.png">
+                <p class="forecast"><span class="high" id="high1">50</span>°/<span class="low" id="low1">40</span>°</p>
+                <p class="forecast-desc"><span id="desc1">sunny</span></p>
+                <p class="forecast-humid"><span id="hum1">75</span>%</p>
+                <p class="forecast-wind"><span id="wind1">5</span> mph</p>
+            </div>
+        </div>
     </main>
 
     <footer>

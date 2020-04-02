@@ -1,0 +1,56 @@
+{
+    "adventures": [
+        {
+            "name": "Main Salmon River",
+            "length": "2 day",
+            "skill": "Beginner",
+            "cost": 750.00,
+            "itinerary": [
+                "",
+                "",
+                "",
+                "",
+            ],
+            "description": ""
+        },
+        {
+            "name": "Lower Salmon River Gorges",
+            "length": "4 day",
+            "skill": "Beginner",
+            "cost": 1200.00,
+            "itinerary":[
+                "",
+                "",
+                "",
+                "",
+            ],
+            "description": ""
+        },
+        {
+            "name": "Middle Fork",
+            "length": "7 day",
+            "skill": "Intermediate",
+            "cost": 2500.00,
+            "itinerary": [
+                "",
+                "",
+                "",
+                "",
+            ],
+            "description": ""
+        },
+        {
+            "name": "Middle Fork | Main Salmon Combo",
+            "length": "11 day",
+            "skill": "Intermediate",
+            "cost": 4500.00,
+            "itinerary": [
+                "",
+                "",
+                "",
+                "",
+            ],
+            "description": ""
+        }
+    ]
+}
