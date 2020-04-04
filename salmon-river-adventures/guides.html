@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Salmon River Adventures</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the home page for Salmon River Adventures.">
+    <meta name="author" content="Cary Taylor">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700,900&display=swap" rel="stylesheet">    
+<!--    <link rel="stylesheet" href="css/styles.css">  -->
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo-sra-240.png" alt="salmon river adventures logo">
+        <div class="header-text">
+            <h1>Salmon River Adventures</h1>
+            <p>motto</p>
+        </div>
+        <div class="ham-menu" id="ham"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a>ADVENTURES</a>
+                <ul>
+                    <li><a href="adventure1.html">Adventure 1</a></li>
+                    <li><a href="adventure2.html">Adventure 2</a></li>
+                    <li><a href="adventure3.html">Adventure 3</a></li>
+                </ul>
+            </li>
+            <li><a class="active-link" href="guides.html">RIVER GUIDES</a></li>
+            <li><a href="reservations.html">RESERVATIONS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Main Salmon River</h2>
+        <picture>
+            <source srcset="images/banner-900.jpg" media="(min-width: 32.5em) and (max-width:64.99em)">
+            <source srcset="images/banner-1024.jpg" media="(min-width: 65em)">
+            <img class="bannerimg" src="images/banner-480.jpg" alt="responsive whitewater banner images">   
+        </picture>
+        <div class="guide-container">
+            <div>
+                <h3 id="guide-name1">First Last</h3>
+                <p>Certifications: </p>
+                <div class="guide-certs1"></div>
+                <p>Experience: <span id="guide-experience1"></span></p>
+                <p>Email: <span id="guide-email1"></span></p>
+                <p>Biography: </p>
+                <div class="guide-bio1"></div>
+                <img src="images/guide-Audrey.jpg" alt="first last">
+                <div class="guide-quote1">Quote: <span id="quote1"></span></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; <span id="copywrite"></span> | Author: <span>Cary Taylor</span> | <a id="termsofuse" href="#">Terms of Use</a></p>
+            <p><span id="todaydate"></span></p>
+        </div>
+        <img src="images/ico-facebook.png" alt="facebook">
+        <img src="images/ico-instagram.png" alt="instagram">
+        <img src="images/ico-twitter.png" alt="twitter">
+        <img src="images/ico-youtube.png" alt="youtube">
+    </footer>
+</body>
+
+<script src="js/todaydate.js"></script>
+</html>

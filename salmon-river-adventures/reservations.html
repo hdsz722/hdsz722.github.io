@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Salmon River Adventures</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the home page for Salmon River Adventures.">
+    <meta name="author" content="Cary Taylor">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700,900&display=swap" rel="stylesheet">    
+<!--    <link rel="stylesheet" href="css/styles.css">  -->
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo-sra-240.png" alt="salmon river adventures logo">
+        <div class="header-text">
+            <h1>Salmon River Adventures</h1>
+            <p>motto</p>
+        </div>
+        <div class="ham-menu" id="ham"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a>ADVENTURES</a>
+                <ul>
+                    <li><a href="adventure1.html">Adventure 1</a></li>
+                    <li><a href="adventure2.html">Adventure 2</a></li>
+                    <li><a href="adventure3.html">Adventure 3</a></li>
+                </ul>
+            </li>
+            <li><a href="guides.html">RIVER GUIDES</a></li>
+            <li><a class="active-link" href="reservations.html">RESERVATIONS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2></h2>
+        <picture>
+            <source srcset="images/background-river2-1024.jpg" media="(min-width: 32.5em) and (max-width:64.99em)">
+            <source srcset="images/background-river2-1024.jpg" media="(min-width: 65em)">
+            <img class="form-background" src="images/background-river2-1024.jpg" alt="river background image">
+        </picture>
+        <div class="reservation-container">
+            <div class="reservation-form">
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>Adventure Reservation</legend>
+
+                        <label class="top">Full Name* <input type="text" name="fullName" required 
+                            pattern="^(\w\w+)\s(\w\w+)$" placeholder="First Last"></label>
+
+                        <label class="top">Email* <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                            placeholder="email@gmail.com"></label>
+
+                        <label class="top">Phone Number* <input type="tel" required 
+                            pattern="[0-9]{7}|[0-9]{10}|[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+
+                        <label class="top">Adventure Package 
+                            <select name="adv-pkg">
+                                <option value="">Please select...</option>
+                            </select>
+                        </label>
+
+                        <label class="top">Start Date 
+                            <select name="adv-date">
+                                <option value="">Please select...</option>
+                            </select>
+                        </label>
+
+                        <label  class="top" for="hazard-comment">Questions/Comments</label>
+                        <textarea id="adv-questions"></textarea>
+                            </fieldset>
+                </form>
+            </div>
+            <div class="reservation-table">
+                <table>
+                    <tr>
+                        <th>Adventure</th>
+                        <th>Length</th>
+                        <th>Skill Level</th>
+                        <th>Cost</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; <span id="copywrite"></span> | Author: <span>Cary Taylor</span> | <a id="termsofuse" href="#">Terms of Use</a></p>
+            <p><span id="todaydate"></span></p>
+        </div>
+        <img src="images/ico-facebook.png" alt="facebook">
+        <img src="images/ico-instagram.png" alt="instagram">
+        <img src="images/ico-twitter.png" alt="twitter">
+        <img src="images/ico-youtube.png" alt="youtube">
+    </footer>
+</body>
+
+<script src="js/todaydate.js"></script>
+</html>
