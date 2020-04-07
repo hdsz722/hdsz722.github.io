@@ -1,6 +1,6 @@
-const requestURL = 'https://byui-cit230.github.io/salmon-river-adventures/data/guides.json';
+const guideURL = 'https://byui-cit230.github.io/salmon-river-adventures/data/guides.json';
 
-fetch(requestURL)
+fetch(guideURL)
     .then(function(response) {
         return response.json();
     })

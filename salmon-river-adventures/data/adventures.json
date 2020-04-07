@@ -5,22 +5,9 @@
             "length": "2 day",
             "skill": "Beginner",
             "cost": 750.00,
-            "departure": [
-                "Jun 5th",
-                "Jul 10th",
-                "Aug 7th"
-            ],
-            "activities": [
-                "Professional Instruction",
-                "Exceptional Meals",
-                "Camping",
-                "Hotsprings",
-                "Fishing"
-            ],
-            "description": "Our two-day river trip brings you down 40 miles of both scenic floating and exciting rapid navigation. Take your time enjoying the 
-            river corridor over the course of three leisurely days, or see it all in just two! The first 20 miles of the trip lend time to warm up to the river 
-            trip, with several Class II and II+ rapids. Take in the scenery and wildlife, learn to kayak, or enjoy short hikes for the first half of the trip. 
-            The second 20 miles is a fun stretch that features exciting Class III and III+ rapids, the highest concentration of back-to-back whitewater.",
+            "departure": ["Jun 5th", "Jul 10th", "Aug 7th"],
+            "activities": ["Professional Instruction", "Exceptional Meals", "Camping", "Hotsprings", "Fishing"],
+            "description": "Our two-day river trip brings you down 40 miles of both scenic floating and exciting rapid navigation. Take your time enjoying the river corridor over the course of three leisurely days, or see it all in just two! The first 20 miles of the trip lend time to warm up to the river trip, with several Class II and II+ rapids. Take in the scenery and wildlife, learn to kayak, or enjoy short hikes for the first half of the trip. The second 20 miles is a fun stretch that features exciting Class III and III+ rapids, the highest concentration of back-to-back whitewater.",
             "notes":"",
             "photo":""
         },
@@ -29,27 +16,9 @@
             "length": "4 day",
             "skill": "Beginner",
             "cost": 1200.00,
-            "departure": [
-                "Jun 10th",
-                "Jul 15th",
-                "Aug 12th"
-            ],
-            "activities":[
-                "Class III+ Rapids",
-                "Exceptional Meals",
-                "Hiking",
-                "Hotsprings",
-                "Fishing",
-                "Camping"
-            ],
-            "description": "Our amazing four-day river trips float through the Lower Salmon River canyons, a super remote section of the prestigious 
-            Salmon River. Escape from reality for four days on 63 river miles, or gain 12 miles on our five-day trip and start farther up river to cover 75 
-            river miles.  You will float through pristine, roadless wilderness, in awe of the diverse terrain that ranges from steep canyon walls to open, 
-            rolling valleys. Unplug from day-to-day stresses and immerse yourself in a place completely unpolluted. Being the longest free-flowing river in the 
-            lower 48 gives the Salmon River spacious, white sand beaches, rapids that change with the seasons, and a healthy and protected ecosystem. Wild 
-            critters like Rocky Mountain big horn sheep, mule deer, black bears, river otters, and over 200 species of birds can be spotted on our trips. Our 
-            guests become our friends on the river, with a super low guest-to-guide ratio. Pick their brains for river stories and facts about the region, and 
-            take a peek while they prepare dinner – the riverside cuisine is impeccable.",
+            "departure": [ "Jun 10th", "Jul 15th", "Aug 12th"],
+            "activities":["Class III+ Rapids", "Exceptional Meals", "Hiking", "Hotsprings", "Fishing", "Camping"],
+            "description": "Our amazing four-day river trips float through the Lower Salmon River canyons, a super remote section of the prestigious Salmon River. Escape from reality for four days on 63 river miles, or gain 12 miles on our five-day trip and start farther up river to cover 75 river miles.  You will float through pristine, roadless wilderness, in awe of the diverse terrain that ranges from steep canyon walls to open, rolling valleys. Unplug from day-to-day stresses and immerse yourself in a place completely unpolluted. Being the longest free-flowing river in the lower 48 gives the Salmon River spacious, white sand beaches, rapids that change with the seasons, and a healthy and protected ecosystem. Wild critters like Rocky Mountain big horn sheep, mule deer, black bears, river otters, and over 200 species of birds can be spotted on our trips. Our guests become our friends on the river, with a super low guest-to-guide ratio. Pick their brains for river stories and facts about the region, and take a peek while they prepare dinner – the riverside cuisine is impeccable.",
             "notes":"",
             "photo":""
         },
@@ -58,27 +27,9 @@
             "length": "7 day",
             "skill": "Intermediate",
             "cost": 2500.00,
-            "departure": [
-                "Jun 14th",
-                "Jul 20th",
-                "Aug 17th"
-            ],
-            "activities": [
-                "Class III and Iv Rapids",
-                "Exceptional Meals",
-                "Hiking",
-                "Hotsprings",
-                "Fishing",
-                "Camping",
-                "Cliff Jumping",
-                "Floating in Lifejacket"
-            ],
-            "description": "A raft trip surrounded by natural wonders, wildlife and history in the 2nd deepest canyon in North America, it truly lives up to it's fame 
-            of being Idaho's premier rafting trip. This 80+ mile journey down the Salmon River in the heart of the Frank Church “River Of No Return” Wilderness offers 
-            exceptional views, comfortable water temperatures and rich Idaho history retold by our knowledgeable guides. Some will find it hard to put the water gun down 
-            or stay out of the river when the temperature boasts a welcoming 70°! Many will opt to sit back, relax, and take in the beauty of the forested canyons and 
-            high granite walls.  Our Main Salmon rafting trip will amaze you with white sand beaches and camping sites surrounded by towering Ponderosa Pines, flourishing 
-            wildflowers, and amazing wildlife viewing opportunities.",
+            "departure": ["Jun 14th", "Jul 20th", "Aug 17th"],
+            "activities": ["Class III and Iv Rapids", "Exceptional Meals", "Hiking", "Hotsprings", "Fishing", "Camping", "Cliff Jumping", "Floating in Lifejacket"],
+            "description": "A raft trip surrounded by natural wonders, wildlife and history in the 2nd deepest canyon in North America, it truly lives up to it's fame of being Idaho's premier rafting trip. This 80+ mile journey down the Salmon River in the heart of the Frank Church “River Of No Return” Wilderness offers exceptional views, comfortable water temperatures and rich Idaho history retold by our knowledgeable guides. Some will find it hard to put the water gun down or stay out of the river when the temperature boasts a welcoming 70°! Many will opt to sit back, relax, and take in the beauty of the forested canyons and high granite walls.  Our Main Salmon rafting trip will amaze you with white sand beaches and camping sites surrounded by towering Ponderosa Pines, flourishing wildflowers, and amazing wildlife viewing opportunities.",
             "notes":"",
             "photo":""
         },
@@ -87,30 +38,9 @@
             "length": "11 day",
             "skill": "Intermediate",
             "cost": 4500.00,
-            "departure": [
-                "Jun 21st",
-                "Jul 26th",
-                "Aug 23rd"
-            ],
-            "activities": [
-                "Class III-Iv Rapids",
-                "Exceptional Meals",
-                "Hiking",
-                "Hotsprings",
-                "Fishing",
-                "Camping",
-                "Cliff Jumping",
-                "Floating in Lifejacket",
-                "Kayaking"
-            ],
-            "description": "Our combo trip starts on the Middle Fork surrounded by natural wonders, wildlife and history in the 2nd deepest canyon in North America, it truly lives up to it's fame 
-            of being Idaho's premier rafting trip. This 80+ mile journey down the Salmon River in the heart of the Frank Church “River Of No Return” Wilderness offers 
-            exceptional views, comfortable water temperatures and rich Idaho history retold by our knowledgeable guides. Some will find it hard to put the water gun down 
-            or stay out of the river when the temperature boasts a welcoming 70°! Many will opt to sit back, relax, and take in the beauty of the forested canyons and 
-            high granite walls.  Our Main Salmon rafting trip will amaze you with white sand beaches and camping sites surrounded by towering Ponderosa Pines, flourishing 
-            wildflowers, and amazing wildlife viewing opportunities.  After reaching the convergence of Middle Fork and the Main Salmon River, the adventure continues.
-            The Main River boasts some amazing Class III and Class IV rapids while surrounded by breathtaking shear cliff canyon walls.  At one point, those who dare are
-            able to jump 20' from the cliffs into the river below. Those who choose can lazily float down the milder portions of the river beside the rafts in their lifejackets.",
+            "departure": ["Jun 21st", "Jul 26th", "Aug 23rd"],
+            "activities": ["Class III-Iv Rapids", "Exceptional Meals", "Hiking", "Hotsprings", "Fishing", "Camping", "Cliff Jumping", "Floating in Lifejacket", "Kayaking"],
+            "description": "Our combo trip starts on the Middle Fork surrounded by natural wonders, wildlife and history in the 2nd deepest canyon in North America, it truly lives up to it's fame of being Idaho's premier rafting trip. This 80+ mile journey down the Salmon River in the heart of the Frank Church “River Of No Return” Wilderness offers exceptional views, comfortable water temperatures and rich Idaho history retold by our knowledgeable guides. Some will find it hard to put the water gun down or stay out of the river when the temperature boasts a welcoming 70°! Many will opt to sit back, relax, and take in the beauty of the forested canyons and high granite walls.  Our Main Salmon rafting trip will amaze you with white sand beaches and camping sites surrounded by towering Ponderosa Pines, flourishing wildflowers, and amazing wildlife viewing opportunities.  After reaching the convergence of Middle Fork and the Main Salmon River, the adventure continues.  The Main River boasts some amazing Class III and Class IV rapids while surrounded by breathtaking shear cliff canyon walls.  At one point, those who dare areable to jump 20' from the cliffs into the river below. Those who choose can lazily float down the milder portions of the river beside the rafts in their lifejackets.",
             "notes":"",
             "photo":""
         }
