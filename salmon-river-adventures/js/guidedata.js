@@ -50,6 +50,7 @@ fetch(guideURL)
             rivGuide.appendChild(bioLabel);
             rivGuide.appendChild(guideBio);
             rivGuide.appendChild(image);
+            rivGuide.appendChild(quoteLabel);
             rivGuide.appendChild(guideQuote);
 
             document.querySelector('.guide-container').appendChild(rivGuide);
