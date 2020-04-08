@@ -23,24 +23,25 @@ fetch(guideURL)
             let quoteLabel=document.createElement('p');
             let guideQuote=document.createElement('p');
 
+            rivGuide.setAttribute('class','guide')
             guideName.textContent = guide.name;
-            guideName.setAttribute('class', "guide-name");
+            guideName.setAttribute('class', 'guide-name');
             certLabel.textContent = 'Certifications:';
             guideCerts.textContent = guide.certification;
             guideCerts.setAttribute('class', 'guide-certs');
             guideExperience.textContent = 'Experience: ' + guide.experience;
-            guideExperience.setAttribute('class', "guide-experience");
+            guideExperience.setAttribute('class', 'guide-experience');
             guideEmail.textContent = 'Email: ' + guide.email;
-            guideEmail.setAttribute('class', "guide-email");
+            guideEmail.setAttribute('class', 'guide-email');
             bioLabel.textContent = 'Biography:';
             guideBio.textContent = guide.biography;
-            guideBio.setAttribute('class', "guide-bio");
+            guideBio.setAttribute('class', 'guide-bio');
             image.setAttribute('src', 'images/' + guide.photo);
             image.setAttribute('alt', 'photo of ' + guide.name);
             quoteLabel.textContent = 'Words to live by: ';
-            quoteLabel.setAttribute('class', "quote-label");
+            quoteLabel.setAttribute('class', 'quote-label');
             guideQuote.textContent = guide.quote;
-            guideQuote.setAttribute('class', "guide-quote");
+            guideQuote.setAttribute('class', 'guide-quote');
 
             rivGuide.appendChild(guideName);
             rivGuide.appendChild(certLabel);
