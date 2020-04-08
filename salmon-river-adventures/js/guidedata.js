@@ -20,6 +20,7 @@ fetch(guideURL)
             let bioLabel=document.createElement('p');
             let guideBio=document.createElement('p');
             let image=document.createElement('img');
+            let quoteLabel=document.createElement('p');
             let guideQuote=document.createElement('p');
 
             guideName.textContent = guide.name;
@@ -36,7 +37,9 @@ fetch(guideURL)
             guideBio.setAttribute('class', "guide-bio");
             image.setAttribute('src', 'images/' + guide.photo);
             image.setAttribute('alt', 'photo of ' + guide.name);
-            guideQuote.textContent = ('Words to live by: ' + guide.quote);
+            quoteLabel.textContent = 'Words to live by: ';
+            quoteLabel.setAttribute('class', "quote-label");
+            guideQuote.textContent = guide.quote;
             guideQuote.setAttribute('class', "guide-quote");
 
             rivGuide.appendChild(guideName);
