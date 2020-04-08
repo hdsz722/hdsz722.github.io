@@ -18,12 +18,6 @@ fetch(apiURL)
         let day4 = forecasts.splice(0,8);
         let day5 = forecasts.splice(0,8);
 
-        console.log(day1);
-        console.log(day2);
-        console.log(day3);
-        console.log(day4);
-        console.log(day5);
-
         let hightemp = "";
         let lowtemp = "";
         let humidity = "";
