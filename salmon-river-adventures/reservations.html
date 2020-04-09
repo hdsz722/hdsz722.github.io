@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <link rel="shortcut icon" href="favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700,900&display=swap" rel="stylesheet">    
-<!--    <link rel="stylesheet" href="css/styles.css">  -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -20,24 +20,21 @@
         <img class="logo" src="images/logo-sra-240.png" alt="salmon river adventures logo">
         <div class="header-text">
             <h1>Salmon River Adventures</h1>
-            <p>motto</p>
+            <p>Let the Water Run Wild</p>
         </div>
-        <div class="ham-menu" id="ham"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+        <div class="ham"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
     </header>
     <nav>
-        <ul>
+        <ul class="nav-menu">
             <li><a href="index.html">HOME</a></li>
-            <li><a>ADVENTURES</a>
-                <ul>
-                    <li><a href="adventure1.html">Main Salmon River</a></li>
-                    <li><a href="adventure2.html">Lower Salmon River Gorges</a></li>
-                    <li><a href="adventure3.html">Middle Fork</a></li>
-                    <li><a href="adventure4.html">Middle Fork/Main Salmon Combo</a></li>
-                </ul>
-            </li>
+            <li>ADVENTURES</li>
+                    <li class="sub-menu"><a href="adventure1.html">Main Salmon River</a></li>
+                    <li class="sub-menu"><a href="adventure2.html">Lower Salmon River Gorges</a></li>
+                    <li class="sub-menu"><a href="adventure3.html">Middle Fork</a></li>
+                    <li class="sub-menu"><a href="adventure4.html">Middle Fork/Main Salmon Combo</a></li>
             <li><a href="guides.html">RIVER GUIDES</a></li>
             <li><a class="active-link" href="reservations.html">RESERVATIONS</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a xhref="contact.html">CONTACT US</a></li>
         </ul>
     </nav>
     <main>
@@ -87,6 +84,30 @@
                         <th>Skill Level</th>
                         <th>Cost</th>
                     </tr>
+                    <tr>
+                        <td>Main Salmon River</td>
+                        <td>2 Days</td>
+                        <td>Beginner</td>
+                        <td>$450</td>
+                    </tr>
+                    <tr>
+                        <td>Lower Salmon River Gorges</td>
+                        <td>4 Days</td>
+                        <td>Beginner</td>
+                        <td>$1200</td>
+                    </tr>
+                    <tr>
+                        <td>Middle Fork</td>
+                        <td>7 Days</td>
+                        <td>Intermediate</td>
+                        <td>$2500</td>
+                    </tr>
+                    <tr>
+                        <td>Middle Fork/Main Salmon Combo</td>
+                        <td>2 Days</td>
+                        <td>Intermediate</td>
+                        <td>$4500</td>
+                    </tr>
                 </table>
             </div>
         </div>
@@ -94,7 +115,7 @@
 
     <footer>
         <div>
-            <p>&copy; <span id="copywrite"></span> | Author: <span>Cary Taylor</span> | <a id="termsofuse" href="#">Terms of Use</a></p>
+            <p>&copy; <span id="copywrite"></span> | Author: <span>Cary Taylor</span> | <a id="termsofuse" href="#">Terms of Use</a> | <a href="references.html">References</a></p>
             <p><span id="todaydate"></span></p>
         </div>
         <img src="images/ico-facebook.png" alt="facebook">

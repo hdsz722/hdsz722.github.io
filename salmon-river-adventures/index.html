@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700,900&display=swap" rel="stylesheet">    
-<!--    <link rel="stylesheet" href="css/styles.css">  -->
+
 </head>
 
 <body>
@@ -22,19 +23,16 @@
             <h1>Salmon River Adventures</h1>
             <p>Let the Water Run Wild</p>
         </div>
-        <div class="ham-menu" id="ham"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+        <div class="ham"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
     </header>
     <nav>
-        <ul>
+        <ul class="nav-menu">
             <li><a class="active-link" href="index.html">HOME</a></li>
-            <li><a>ADVENTURES</a>
-                <ul>
-                    <li><a href="adventure1.html">Main Salmon River</a></li>
-                    <li><a href="adventure2.html">Lower Salmon River Gorges</a></li>
-                    <li><a href="adventure3.html">Middle Fork</a></li>
-                    <li><a href="adventure4.html">Middle Fork/Main Salmon Combo</a></li>
-                </ul>
-            </li>
+            <li>ADVENTURES</li>
+                    <li class="sub-menu"><a href="adventure1.html">Main Salmon River</a></li>
+                    <li class="sub-menu"><a href="adventure2.html">Lower Salmon River Gorges</a></li>
+                    <li class="sub-menu"><a href="adventure3.html">Middle Fork</a></li>
+                    <li class="sub-menu"><a href="adventure4.html">Middle Fork/Main Salmon Combo</a></li>
             <li><a href="guides.html">RIVER GUIDES</a></li>
             <li><a href="reservations.html">RESERVATIONS</a></li>
             <li><a href="contact.html">CONTACT US</a></li>
@@ -42,23 +40,27 @@
     </nav>
     <main>
         <div>
-            <picture>
+            <picture class="banner-img">
                 <source srcset="images/banner-home-900.jpg" media="(min-width: 32.5em) and (max-width:64.99em)">
                 <source srcset="images/banner-home-1024.jpg" media="(min-width: 65em)">
-                <img class="bannerimg" src="images/banner-home-480.jpg" alt="responsive whitewater banner images">
+                <img src="images/banner-home-480.jpg" alt="responsive whitewater banner images">
             </picture>
         </div>
-        <div class="weather-card">
+        <div class="weather-card current-weather">
             <h3 class="forecast-hdr"><span>Currently</span></h3>
             <img class="weather-img" id="icon" src="images/icon-holder.png" alt="icon1">
-            <p class="current-temp">Temp:<span class="temp" id="temp">50</span>°</p>
-            <p class="current-cond"><span id="cond">sunny</span></p>
-            <p class="current-humid">Humidity: <span id="hum">75</span>%</p>
-            <p class="current-wind">Wind: <span id="wind">5</span> mph</p>
-            <p class="current-wind">Windchill: <span id="chill">5</span>°</p>
+            <p class="current">Temp:<span class="temp" id="temp">50</span>°</p>
+            <p class="current"><span id="cond">sunny</span></p>
+            <p class="current current-details">Humidity: <span id="hum">75</span>%</p>
+            <p class="current current-details">Wind: <span id="wind">5</span> mph</p>
+            <p class="current current-details">Windchill: <span id="chill">5</span>°</p>
         </div>
-        <div>
+        <div class="article">
             <h2>Welcome to Salmon River Adventures</h2>
+            <picture class="article-img">
+                <source srcset="images/img-river-III-350.jpg" media="(min-width: 65em)">
+                <img src="images/img-river-III-250.jpg" alt="rafting through rapids">
+            </picture>
             <p>
                 We’re a professional family of guides dedicated to leading trips down some of the most beautiful rivers in the world. 
                 Our most popular trips is the Middle Fork of the Salmon River which is a 7 day trip of you will never forget.  We also offer
@@ -73,65 +75,64 @@
             <p>                
                 Our staff and guides are excited that you have picked us to join you for your vacation on the river.
             </p>
-            <picture>
-                <source srcset="images/img-river-III-350.jpg" media="(min-width: 65em)">
-                <img src="images/img-river-III-250.jpg" alt="rafting through rapids">
-            </picture>
+
         </div>
         <div class="forecast-container">
             <h2>5-day Area Weather Forecast</h2>
             <div class="weather-card">
-                <h3 class="forcast-hdr"><span id="day1">Mon 10</span></h3>
-                <img class="forcast-img" id="icon1" src="images/icon-holder.png" alt="icon1">
+                <h3 class="forecast-hdr"><span id="day1">Mon 10</span></h3>
+                <img class="forecast-img" id="icon1" src="images/icon-holder.png" alt="icon1">
                 <p class="forecast"><span class="high" id="high1">50</span>°/<span class="low" id="low1">40</span>°</p>
-                <p class="forecast-desc"><span id="desc1">sunny</span></p>
-                <p class="forecast-humid"><span id="hum1">75</span>%</p>
-                <p class="forecast-wind"><span id="wind1">5</span> mph</p>
+                <p class="forecast"><span id="desc1">sunny</span></p>
+                <p class="forecast"><span id="hum1">75</span>%</p>
+                <p class="forecast"><span id="wind1">5</span> mph</p>
             </div>
             <div class="weather-card">
-                <h3 class="forcast-hdr"><span id="day2">Tue 11</span></h3>
-                <img class="forcast-img" id="icon2" src="images/icon-holder.png" alt="icon2">
+                <h3 class="forecast-hdr"><span id="day2">Tue 11</span></h3>
+                <img class="forecast-img" id="icon2" src="images/icon-holder.png" alt="icon2">
                 <p class="forecast"><span class="high" id="high2">50</span>°/<span class="low" id="low2">40</span>°</p>
-                <p class="forecast-desc"><span id="desc2">sunny</span></p>
-                <p class="forecast-humid"><span id="hum2">75</span>%</p>
-                <p class="forecast-wind"><span id="wind2">5</span> mph</p>
+                <p class="forecast"><span id="desc2">sunny</span></p>
+                <p class="forecast"><span id="hum2">75</span>%</p>
+                <p class="forecast"><span id="wind2">5</span> mph</p>
             </div>
             <div class="weather-card">
-                <h3 class="forcast-hdr"><span id="day3">Wed 12</span></h3>
-                <img class="forcast-img" id="icon3" src="images/icon-holder.png" alt="icon3">
+                <h3 class="forecast-hdr"><span id="day3">Wed 12</span></h3>
+                <img class="forecast-img" id="icon3" src="images/icon-holder.png" alt="icon3">
                 <p class="forecast"><span class="high" id="high3">50</span>°/<span class="low" id="low3">40</span>°</p>
-                <p class="forecast-desc"><span id="desc3">sunny</span></p>
-                <p class="forecast-humid"><span id="hum3">75</span>%</p>
-                <p class="forecast-wind"><span id="wind3">5</span> mph</p>
+                <p class="forecast"><span id="desc3">sunny</span></p>
+                <p class="forecast"><span id="hum3">75</span>%</p>
+                <p class="forecast"><span id="wind3">5</span> mph</p>
             </div>
             <div class="weather-card">
-                <h3 class="forcast-hdr"><span id="day4">Thr 13</span></h3>
-                <img class="forcast-img" id="icon4" src="images/icon-holder.png" alt="icon4">
+                <h3 class="forecast-hdr"><span id="day4">Thr 13</span></h3>
+                <img class="forecast-img" id="icon4" src="images/icon-holder.png" alt="icon4">
                 <p class="forecast"><span class="high" id="high4">50</span>°/<span class="low" id="low4">40</span>°</p>
-                <p class="forecast-desc"><span id="desc4">sunny</span></p>
-                <p class="forecast-humid"><span id="hum4">75</span>%</p>
-                <p class="forecast-wind"><span id="wind4">5</span> mph</p>
+                <p class="forecast"><span id="desc4">sunny</span></p>
+                <p class="forecast"><span id="hum4">75</span>%</p>
+                <p class="forecast"><span id="wind4">5</span> mph</p>
             </div>
             <div class="weather-card">
-                <h3 class="forcast-hdr"><span id="day5">Fri 14</span></h3>
-                <img class="forcast-img" id="icon5" src="images/icon-holder.png" alt="icon5">
+                <h3 class="forecast-hdr"><span id="day5">Fri 14</span></h3>
+                <img class="forecast-img" id="icon5" src="images/icon-holder.png" alt="icon5">
                 <p class="forecast"><span class="high" id="high5">50</span>°/<span class="low" id="low5">40</span>°</p>
-                <p class="forecast-desc"><span id="desc5">sunny</span></p>
-                <p class="forecast-humid"><span id="hum5">75</span>%</p>
-                <p class="forecast-wind"><span id="wind5">5</span> mph</p>
+                <p class="forecast"><span id="desc5">sunny</span></p>
+                <p class="forecast"><span id="hum5">75</span>%</p>
+                <p class="forecast"><span id="wind5">5</span> mph</p>
             </div>
         </div>
     </main>
 
     <footer>
         <div>
-            <p>&copy; <span id="copywrite"></span> | Author: <span>Cary Taylor</span> | <a id="termsofuse" href="#">Terms of Use</a></p>
+            <p>&copy; <span id="copywrite"></span> | Author: <span>Cary Taylor</span> | <a id="termsofuse" href="#">Terms of Use</a> | <a href="references.html">References</a></p>
             <p><span id="todaydate"></span></p>
         </div>
-        <img src="images/ico-facebook.png" alt="facebook">
-        <img src="images/ico-instagram.png" alt="instagram">
-        <img src="images/ico-twitter.png" alt="twitter">
-        <img src="images/ico-youtube.png" alt="youtube">
+        <div class="social-media">
+            <img src="images/ico-facebook.png" alt="facebook">
+            <img src="images/ico-instagram.png" alt="instagram">
+            <img src="images/ico-twitter.png" alt="twitter">
+            <img src="images/ico-youtube.png" alt="youtube">
+        </div>
     </footer>
 </body>
 
@@ -140,4 +141,5 @@
 <script src="js/weatherapi.js"></script>
 <script src="js/forecastdates.js"></script>
 <script src="js/todaydate.js"></script>
+
 </html>

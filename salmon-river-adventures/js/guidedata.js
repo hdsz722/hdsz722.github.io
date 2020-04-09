@@ -27,6 +27,7 @@ fetch(guideURL)
             guideName.textContent = guide.name;
             guideName.setAttribute('class', 'guide-name');
             certLabel.textContent = 'Certifications:';
+            certLabel.setAttribute('class','guide-label');
             guideCerts.textContent = guide.certification;
             guideCerts.setAttribute('class', 'guide-certs');
             guideExperience.textContent = 'Experience: ' + guide.experience;
@@ -34,23 +35,25 @@ fetch(guideURL)
             guideEmail.textContent = 'Email: ' + guide.email;
             guideEmail.setAttribute('class', 'guide-email');
             bioLabel.textContent = 'Biography:';
+            bioLabel.setAttribute=('class', 'guide-label');
             guideBio.textContent = guide.biography;
             guideBio.setAttribute('class', 'guide-bio');
-            image.setAttribute('src', 'images/' + guide.photo);
+            image.setAttribute('class', 'guide-image');
             image.setAttribute('alt', 'photo of ' + guide.name);
+            image.setAttribute('src', 'images/' + guide.photo);
             quoteLabel.textContent = 'Words to live by: ';
-            quoteLabel.setAttribute('class', 'quote-label');
+            quoteLabel.setAttribute('class', 'quote-label guide-label');
             guideQuote.textContent = guide.quote;
             guideQuote.setAttribute('class', 'guide-quote');
 
             rivGuide.appendChild(guideName);
+            rivGuide.appendChild(image);
             rivGuide.appendChild(certLabel);
             rivGuide.appendChild(guideCerts);
             rivGuide.appendChild(guideExperience);
             rivGuide.appendChild(guideEmail);
             rivGuide.appendChild(bioLabel);
             rivGuide.appendChild(guideBio);
-            rivGuide.appendChild(image);
             rivGuide.appendChild(quoteLabel);
             rivGuide.appendChild(guideQuote);
 

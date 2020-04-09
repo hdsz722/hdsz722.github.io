@@ -3,5 +3,5 @@
    hambutton.addEventListener ("click", toggleMenu, false);
 
    function toggleMenu() {
-      document.querySelector(".design-doc-menu").classList.toggle("responsive");
+      document.querySelector("nav-menu").classList.toggle("responsive");
    }
